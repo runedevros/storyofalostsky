@@ -1,0 +1,281 @@
+<trait_learning_catalog>
+
+    <unit name="Youmu">
+        <trait_branch name="Ghostly Gardener">
+            <trait level="2">Sharp Eyes</trait>
+            <trait level="5">Double Action</trait>
+            <trait level="10">Fighting Spirit</trait>
+            <trait level="15">Deadly Strike</trait>
+            <trait level="20">Attack+ Lv.2</trait>
+        </trait_branch>
+
+        <trait_branch name="Netherworld's Guardian">
+            <trait level="2">Fast Reflex</trait>
+            <trait level="5">Focused Movement</trait>
+            <trait level="10">Move+ Lv.1</trait>
+            <trait level="15">Mirage</trait>
+            <trait level="20">Sneak</trait>
+        </trait_branch>
+    </unit>
+
+    <unit name="Ran">
+        <trait_branch name="Scheming Nine-tails">
+            <trait level="2">Support Duration+</trait>
+            <trait level="5">Shikigami: Chen</trait>
+            <trait level="10">Illusion Field</trait>
+            <trait level="15">Mirage</trait>
+            <trait level="20">M. Defense+ Lv.3</trait>
+        </trait_branch>
+
+        <trait_branch name="Fox of Illusions">
+            <trait level="2">Magic+ Lv.2</trait>
+            <trait level="5">Magic Fortress</trait>
+            <trait level="10">Calculator</trait>
+            <trait level="15">Danmaku Sniper</trait>
+            <trait level="20">Defense+ Lv.3</trait>
+        </trait_branch>
+    </unit>
+
+    <unit name="Chen">
+        <trait_branch name="Stray Cat Shikigami">
+            <trait level="2">Regen Lv.1</trait>
+            <trait level="5">Dizzy Attack</trait>
+            <trait level="10">Sneak</trait>
+            <trait level="15">Focused Movement</trait>
+            <trait level="20">Attack+ Lv.2</trait>
+        </trait_branch>
+
+        <trait_branch name="Cat of Curses">
+            <trait level="2">Mirage</trait>
+            <trait level="5">Cat's Curse</trait>
+            <trait level="10">Close Combat</trait>
+            <trait level="15">Black Cat</trait>
+            <trait level="20">Nine Lives</trait>
+        </trait_branch>
+    </unit>
+
+    <unit name="Marisa">
+        <trait_branch name="Thieving Witch">
+            <trait level="2">Flight</trait>
+            <trait level="5">Mirage</trait>
+            <trait level="10">Move+ Lv.1</trait>
+            <trait level="15">Hard Worker</trait>
+            <trait level="20">Spirit Saver</trait>
+        </trait_branch>
+
+        <trait_branch name="Magician of Dreams">
+            <trait level="2">Magic Reactor</trait>
+            <trait level="5">Magic+ Lv.2</trait>
+            <trait level="10">Focused Movement</trait>
+            <trait level="15">Homing Attack</trait>
+            <trait level="20">Spirit Booster</trait>
+        </trait_branch>
+    </unit>
+    <unit name="Reimu">
+        <trait_branch name="Youkai Exterminator">
+            <trait level="2">Homing Attack</trait>
+            <trait level="5">Youkai Exterminator</trait>
+            <trait level="10">Focused Movement</trait>
+            <trait level="15">Good Health Charm</trait>
+            <trait level="20">M. Defense+ Lv.2</trait>
+        </trait_branch>
+
+        <trait_branch name="Holy Maiden of Hakurei">
+            <trait level="2">Magic+ Lv.2</trait>
+            <trait level="5">Purify</trait>
+            <trait level="10">Teleport</trait>
+            <trait level="15">Anti-Curse Charm</trait>
+            <trait level="20">Yin-Yang Orb</trait>
+        </trait_branch>
+    </unit>
+
+
+    <unit name="Keine">
+        <trait_branch name="Historian">
+            <trait level="2">Support Duration+</trait>
+            <trait level="5">Youkai Professor</trait>
+            <trait level="10">Dispel History</trait>
+            <trait level="15">M. Defense+ Lv.2</trait>
+            <trait level="20">Dispel Effect</trait>
+        </trait_branch>
+
+        <trait_branch name="Protector of the Village">
+            <trait level="2">Healing+ Lv.1</trait>
+            <trait level="5">Tactician</trait>
+            <trait level="10">Field Medic</trait>
+            <trait level="15">Defense+ Lv.2</trait>
+            <trait level="20">Healing+ Lv.3</trait>
+
+        </trait_branch>
+    </unit>
+
+    <unit name="Mokou">
+        <trait_branch name="Hourai's Phoenix">
+            <trait level="2">Regen Lv.1</trait>
+            <trait level="5">Immortal Phoenix</trait>
+            <trait level="10">Flight</trait>
+            <trait level="15">Eternal Rivals</trait>
+            <trait level="20">Hourai Elixir</trait>
+        </trait_branch>
+
+        <trait_branch name="Youkai Hunter">
+            <trait level="2">Fighting Spirit</trait>
+            <trait level="5">Eternal Flame</trait>
+            <trait level="10">Sneak</trait>
+            <trait level="15">Hunter and Teacher</trait>
+            <trait level="20">Regen Lv.2</trait>
+        </trait_branch>
+    </unit>
+
+
+
+
+    <unit name="Alice">
+        <trait_branch name="Seven-Colored Puppeteer">
+            <trait level="2">Puppet Master</trait>
+            <trait level="5">Summon Doll</trait>
+            <trait level="10">Malice Cannon</trait>
+            <trait level="15">Hourai Blade</trait>
+            <trait level="20">Unleash Grimoire</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Wonderland Wizard">
+            <trait level="2">Extend Range</trait>
+            <trait level="5">Magic Fortress</trait>
+            <trait level="10">Magic+ Lv.2</trait>
+            <trait level="15">Shanghai Shield</trait>
+            <trait level="20">Magic+ Lv.3</trait>
+        </trait_branch>
+    </unit>
+
+    <unit name="Aya">
+        <trait_branch name="Crow of the Tempest">
+
+            <trait level="2">Flight</trait>
+            <trait level="5">Move+ Lv.1</trait>
+            <trait level="10">Airlift</trait>
+            <trait level="15">Sneak</trait>
+            <trait level="20">Homing Attack</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Paparazzi">
+
+            <trait level="2">Danmaku Master</trait>
+            <trait level="5">Attack and Move</trait>
+            <trait level="10">Reporter's Reflex</trait>
+            <trait level="15">Move+ Lv.2</trait>
+            <trait level="20">Mirage</trait>
+
+        </trait_branch>
+    </unit>
+    <unit name="Kaguya">
+        <trait_branch name="Lunar Princess">
+
+            <trait level="2">Dragon's Jewel</trait>
+            <trait level="5">Buddha's Bowl</trait>
+            <trait level="10">Fire Rat's Coat</trait>
+            <trait level="15">Swallow's Shell</trait>
+            <trait level="20">Hourai's Branch</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Immortal Princess">
+
+            <trait level="2">M. Defense+ Lv.2</trait>
+            <trait level="5">Magic Fortress</trait>
+            <trait level="10">Moonstone Lantern</trait>
+            <trait level="15">Hourai Elixir</trait>
+            <trait level="20">Regen Lv.2</trait>
+
+        </trait_branch>
+    </unit>
+    <unit name="Eirin">
+        <trait_branch name="Genius of the Moon">
+
+            <trait level="2">M. Defense+ Lv.1</trait>
+            <trait level="5">Moonstone Arrow</trait>
+            <trait level="10">Extended Healing</trait>
+            <trait level="15">Regeneration Field</trait>
+            <trait level="20">Brain of Eientei</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Hourai Pharmacist">
+
+            <trait level="2">Healing+ Lv.1</trait>
+            <trait level="5">Poison Cloud</trait>
+            <trait level="10">Apothecary</trait>
+            <trait level="15">Secret Formula</trait>
+            <trait level="20">Vaccination</trait>
+
+        </trait_branch>
+    </unit>
+    <unit name="Reisen">
+        <trait_branch name="Eientei's Sniper">
+
+            <trait level="2">Danmaku Sniper</trait>
+            <trait level="5">Double Action</trait>
+            <trait level="10">Critical+ Lv.2</trait>
+            <trait level="15">False Image</trait>
+            <trait level="20">Move+ Lv.1</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Lunatic Red Eyes">
+
+            <trait level="2">Homing Attack</trait>
+            <trait level="5">Hypnotize</trait>
+            <trait level="10">Mirage</trait>
+            <trait level="15">Moonglow</trait>
+            <trait level="20">Sneak</trait>
+
+        </trait_branch>
+    </unit>
+    <unit name="Yukari">
+        <trait_branch name="Mastermind">
+
+            <trait level="2">Magic+ Lv.2</trait>
+            <trait level="5">Reactivate</trait>
+            <trait level="10">Spirit Away</trait>
+            <trait level="15">Shikigami: Ran</trait>
+            <trait level="20">Sneak</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Youkai of Boundaries">
+
+            <trait level="2">Mirage</trait>
+            <trait level="5">Teleport</trait>
+            <trait level="10">Portal Express</trait>
+            <trait level="15">Border Team</trait>
+            <trait level="20">Barrier Master</trait>
+
+        </trait_branch>
+    </unit>
+
+    <unit name="Yuyuko">
+        <trait_branch name="Dreaming Ghost">
+
+            <trait level="2">Magic+ Lv.2</trait>
+            <trait level="5">Spirit Blossom</trait>
+            <trait level="10">Loyal Guardian</trait>
+            <trait level="15">Flight</trait>
+            <trait level="20">Snack Expert</trait>
+
+        </trait_branch>
+
+        <trait_branch name="Incarnate of Death">
+
+            <trait level="2">Mirage</trait>
+            <trait level="5">Butterfly Storm</trait>
+            <trait level="10">Mischevious Duo</trait>
+            <trait level="15">Invitation</trait>
+            <trait level="20">Death's Blessing</trait>
+
+        </trait_branch>
+    </unit>
+
+
+</trait_learning_catalog>

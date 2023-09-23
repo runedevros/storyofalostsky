@@ -1,0 +1,79 @@
+<animation_set>
+    <id_string>Fuzzball</id_string>
+    <animation_filename>enemy-fuzzball-ani.png</animation_filename>
+    
+    <!--Standing Frame-->
+    <animation_sequence type="idle" repeat="True">
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+    </animation_sequence>
+    <animation_sequence type="physical" repeat="False">
+        <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+    </animation_sequence>
+    
+    <animation_sequence type="magical" repeat="False">
+        <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+     
+    </animation_sequence>
+    
+    <animation_sequence type="cast_physical" repeat="True">
+         <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(3,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(4,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(5,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+    
+    </animation_sequence>
+    <animation_sequence type="cast_magical" repeat="True">
+         <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(3,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(4,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(5,0)</frame_coord>
+            <coords>(0,0)</coords>
+        </frame>
+    
+    </animation_sequence>
+    <animation_sequence type="dodge">
+    </animation_sequence>
+    
+    <animation_sequence type="hit">
+    </animation_sequence>
+    
+</animation_set>

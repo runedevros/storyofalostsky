@@ -1,0 +1,348 @@
+<!--trading combinations-->
+<trading_data>
+<trading_list>
+
+	<!-- Ordinary trades go here -->
+    <trade name="Collectible Carvings">
+
+		<special_trade>False</special_trade>
+        <id_string>trade_01</id_string>
+        <desc>I'm looking for some wooden statues that have been carved into the shapes of animals. They're rather magnificent since they actually date back to the time of the border. I'll trade some spell creation crystals for them.</desc>
+        <repeatable>False</repeatable>
+        <points>200</points>
+        <item_wanted>
+            <item_id>000_statue</item_id>
+            <quantity>1</quantity>
+        </item_wanted>
+        <item_offered>
+            <item_id>synth_water</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_wood</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_metal</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+    </trade>
+    <trade name="Sorcerer's Talisman">
+		<special_trade>False</special_trade>
+        <id_string>trade_02</id_string>
+        <desc>Long ago, it's said that there was a monster that lived in the woods to the northeast of the village. He was exorcised by being convinced to eat an offering that contained a magic talisman.</desc>
+        <repeatable>False</repeatable>
+        <points>200</points>
+        <item_wanted>
+            <item_id>001_talisman</item_id>
+            <quantity>1</quantity>
+        </item_wanted>
+        <item_offered>
+            <item_id>synth_water</item_id>
+            <item_type>treasure</item_type>
+            <quantity>2</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>Medicinal Drop</item_id>
+            <item_type>spell_action</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+    </trade>
+    <trade name="Magician's Tome">
+            <special_trade>True</special_trade>
+            <id_string>trade_03</id_string>
+            <desc>There's a book of spells written by an ancient sorcerer that contains all the incantations that he described. Patchouli Knowledge claims that it predates Gensokyo and the magic is very different from what we use.</desc>
+            <repeatable>False</repeatable>
+            <item_wanted>
+                <item_id>007_spellbook</item_id>
+                <quantity>1</quantity>
+            </item_wanted>
+            <item_offered>
+                <item_id>Illusion Veil</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+    </trade>
+    <trade name="Communicator Device">
+            <special_trade>True</special_trade>
+            <id_string>trade_04</id_string>
+            <desc>Yukari Yakumo says these are popular in the outside world and are used for communication. For some reason it doesn't work here in Gensokyo.</desc>
+            <repeatable>False</repeatable>
+            <item_wanted>
+                <item_id>002_cellphone</item_id>
+                <quantity>1</quantity>
+            </item_wanted>
+            <item_offered>
+                <item_id>Life Bless</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+    </trade>
+    <trade name="Ibis Tapestry">
+            <special_trade>True</special_trade>
+            <id_string>trade_05</id_string>
+            <desc>Among the treasures in my collection is a beautiful painting of the Crested Ibis. It's a rare bird that is sometimes seen in our land.</desc>
+            <repeatable>False</repeatable>
+            <item_wanted>
+                <item_id>003_ibistapestry</item_id>
+                <quantity>1</quantity>
+            </item_wanted>
+            <item_offered>
+                <item_id>Fried Tofu</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>2</quantity>
+            </item_offered>
+    </trade>
+    <trade name="Lamp of Wishes">
+            <special_trade>True</special_trade>
+            <id_string>trade_06</id_string>
+            <desc>In a faraway desert land, there is a spirit that resides in this lamp which grants wishes. It seems to have lost all its magic power, so I keep this beautiful golden item around for aesthetic reasons.</desc>
+            <repeatable>False</repeatable>
+            <item_wanted>
+                <item_id>004_magiclamp</item_id>
+                <quantity>1</quantity>
+            </item_wanted>
+            <item_offered>
+                <item_id>Mystic Barrier</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+            <item_offered>
+                <item_id>Mystic Wall</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+    </trade>
+    <trade name="Glove of Water Spirits">
+            <special_trade>True</special_trade>
+            <id_string>trade_07</id_string>
+            <desc>Far away in another world, another time, the guides of an ancient water-borne city wear these elegant gloves.</desc>
+            <repeatable>False</repeatable>
+            <item_wanted>
+                <item_id>005_gondglove</item_id>
+                <quantity>1</quantity>
+            </item_wanted>
+            <item_offered>
+                <item_id>Weakening Amulet</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+            <item_offered>
+                <item_id>Tracking Shot</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+    </trade>
+    <trade name="Sunny Parasol">
+            <special_trade>True</special_trade>
+            <id_string>trade_08</id_string>
+            <desc>I used to keep this parasol around for days when the sun is too bright. With the coming summer, I'm sure it'll be nice to have it back.</desc>
+            <repeatable>False</repeatable>
+            <item_wanted>
+                <item_id>006_parasol</item_id>
+                <quantity>1</quantity>
+            </item_wanted>
+            <item_offered>
+                <item_id>Barrier Buster</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+            <item_offered>
+                <item_id>Encourage</item_id>
+                <item_type>spell_action</item_type>
+                <quantity>1</quantity>
+            </item_offered>
+    </trade>
+    <trade name="Lucky Cat">
+		<special_trade>False</special_trade>
+        <id_string>trade_09</id_string>
+        <desc>I used to keep a lucky cat by the entrance of the store. This one came from the outside world and would wave it's paw if left in sunlight.</desc>
+        <repeatable>False</repeatable>
+        <item_wanted>
+            <item_id>012_luckycat</item_id>
+            <quantity>1</quantity>
+        </item_wanted>
+        <item_offered>
+            <item_id>synth_earth</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_fire</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_metal</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+    </trade>
+    <trade name="Messenger's Plume">
+		<special_trade>False</special_trade>
+        <id_string>trade_10</id_string>
+        <desc>In some legends from the world beyond Gensokyo, the messengers of the Gods were winged beings and their feathers were said to bring blessings. I acquired one of these, but the magical power seems to have worn off.</desc>
+        <repeatable>False</repeatable>
+
+        <item_wanted>
+            <item_id>020_angelfeather</item_id>
+            <quantity>1</quantity>
+        </item_wanted>
+        <item_offered>
+            <item_id>Spirit Break</item_id>
+            <item_type>spell_action</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+    </trade>
+    <trade name="A Mysterious Mirror">
+		<special_trade>False</special_trade>
+        <id_string>trade_11</id_string>
+        <desc>This mirror was made by a magician to reflect the true desires of the person viewing it. I suppose it can conjure up some unpleasant images in certain people.</desc>
+        <repeatable>False</repeatable>
+
+        <item_wanted>
+            <item_id>022_mirroroftruth</item_id>
+            <quantity>1</quantity>
+        </item_wanted>
+        <item_offered>
+            <item_id>Medicinal Drop</item_id>
+            <item_type>spell_action</item_type>
+            <quantity>2</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_fire</item_id>
+            <item_type>treasure</item_type>
+            <quantity>3</quantity>
+        </item_offered>
+    </trade>
+    <trade name="Essence of Spring">
+		<special_trade>False</special_trade>
+        <id_string>trade_12</id_string>
+        <desc>Do you remember the unending winter a few years ago? At the end, there was so much spring released. I had kept a few samples of the magical essence bottled up.</desc>
+        <repeatable>False</repeatable>
+        <item_wanted>
+            <item_id>023_essenseofspring</item_id>
+            <quantity>1</quantity>
+        </item_wanted>
+        <item_offered>
+            <item_id>synth_earth</item_id>
+            <item_type>treasure</item_type>
+            <quantity>2</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_wood</item_id>
+            <item_type>treasure</item_type>
+            <quantity>2</quantity>
+        </item_offered>
+        <item_offered>
+            <item_id>synth_metal</item_id>
+            <item_type>treasure</item_type>
+            <quantity>1</quantity>
+        </item_offered>
+    </trade>
+
+
+
+
+</trading_list>
+<rewards_list>
+	<reward>
+		<desc>Ah! Great the first of my treasures came in! Whereever did you find them? Here is an item that may be useful to you. It heals status effects encountered in battle.</desc>
+
+		<item_given>
+			<item_id>Medicinal Drop</item_id>
+			<item_type>spell_action</item_type>
+			<quantity>1</quantity>
+		</item_given>
+
+		<treasures>1</treasures>
+	</reward>
+	<reward>
+		<desc>Oh! Five items have now been returned. I found some spell synthesis crystals recently. They're probably better off with you than sitting here gathering dust.</desc>
+		<item_given>
+			<item_id>synth_fire</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_water</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_earth</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_metal</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_wood</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<treasures>5</treasures>
+	</reward>
+	<reward>
+		<desc>Seven items have now been returned. Here's a special item that dispels magical status effects. Maybe Reimu can use it.</desc>
+
+		<item_given>
+			<item_id>Exorcism Tag</item_id>
+			<item_type>spell_action</item_type>
+			<quantity>1</quantity>
+		</item_given>
+
+		<treasures>7</treasures>
+	</reward>
+
+	<reward>
+		<desc>Finally! All twelve items have now been returned. Here are some items to show my appreciation.</desc>
+
+		<item_given>
+			<item_id>Exorcism Tag</item_id>
+			<item_type>spell_action</item_type>
+			<quantity>1</quantity>
+		</item_given>
+
+		<item_given>
+			<item_id>Medicinal Drop</item_id>
+			<item_type>spell_action</item_type>
+			<quantity>1</quantity>
+		</item_given>
+        <item_given>
+			<item_id>synth_fire</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_water</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_earth</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_metal</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<item_given>
+			<item_id>synth_wood</item_id>
+			<item_type>treasure</item_type>
+			<quantity>1</quantity>
+		</item_given>
+		<treasures>12</treasures>
+	</reward>
+
+
+</rewards_list>
+</trading_data>

@@ -1,0 +1,3247 @@
+<trait_catalog>
+
+    <!-- Generic Traits -->
+
+    <trait name="Flight">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Allows easy travel over any terrain.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Flight</property>
+        </trait_properties>
+
+    </trait>
+
+
+    <trait name="Swimming">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Freely move in water terrain.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Swimming</property>
+        </trait_properties>
+
+    </trait>
+
+    <trait name="Counterbomb">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Chance to survive fatal blow once per battle.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Revive Lv.1</property>
+        </trait_properties>
+    </trait>
+
+
+    <!-- Class Restricted Traits -->
+
+    <trait name="Attack+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases physical attack slightly.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0.1</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Attack+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases physical attack a moderate amount.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0.3</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Attack+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases physical attack a lot.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0.5</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Defense+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases physical defense slightly.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0.1</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Defense+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases physical defense a moderate amount.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0.3</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+    </trait>
+
+    <trait name="Defense+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases physical defense a lot more</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0.3</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+    </trait>
+
+    <trait name="Magic+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic attack slightly.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.1</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Magic+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic attack a moderate amount.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.3</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Magic+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic attack a lot more.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.5</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+    </trait>
+
+    <trait name="M. Defense+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic defense slightly.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.1</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="M. Defense+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic defense a moderate amount.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.3</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="M. Defense+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic defense a lot more.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.5</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Fast Reflex">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance of evading by 5%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>5</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Mirage">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance of evading by 15%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>15</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+    </trait>
+
+    <trait name="Danmaku Master">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance to evade by 30%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>30</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Sharp Eyes">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance to hit by 5%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>5</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Homing Attack">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance to hit by 15%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>15</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+    </trait>
+
+    <trait name="Lock On">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance to hit by 30%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0.5</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>30</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Sneak">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Allows this unit to pass through enemies.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Pass Through</property>
+        </trait_properties>
+
+    </trait>
+
+    <trait name="Move+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases movement range by 1.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">1</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Move+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases movement range by 2.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">2</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Move+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases movement range by 3.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">3</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Regen Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Regenerates a small amount of HP each turn.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Every Turn</property>
+            <property>Regen Lv.1</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Regen Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Regenerates a medium amount of HP each turn.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Every Turn</property>
+            <property>Regen Lv.2</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Regen Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Regenerates a large amount of HP each turn.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Every Turn</property>
+            <property>Regen Lv.3</property>
+        </trait_properties>
+
+    </trait>
+
+    <trait name="Critical+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance for a critical hit by 10%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Critical+ Lv.1</property>
+        </trait_properties>
+
+    </trait>
+    <trait name="Critical+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance for a critical hit by 15%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Critical+ Lv.2</property>
+        </trait_properties>
+
+    </trait>
+    <trait name="Critical+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases chance for a critical hit by 20%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Critical+ Lv.3</property>
+        </trait_properties>
+
+    </trait>
+
+
+    <trait name="Magic Reactor">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Marisa's magical item which regenerates a small amount of Spirit Charge per turn up to 500.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Every Turn</property>
+            <property>Spirit Regen</property>
+        </trait_properties>
+    </trait>
+
+
+
+    <trait name="Yin-Yang Orb">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Reimu's magical item which regenerates a small amount of Spirit Charge per turn up to 500.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Every Turn</property>
+            <property>Spirit Regen</property>
+        </trait_properties>
+    </trait>
+
+
+
+    <trait name="Healing+ Lv.1">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases effectiveness of healing spells by 10%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Healing+ Lv.1</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Healing+ Lv.2">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases effectiveness of healing spells by 20%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <flight>False</flight>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Healing+ Lv.2</property>
+        </trait_properties>
+
+        <trait_learning>
+            <cost>6</cost>
+            <class>Healer</class>
+            <prereq>Healing+ Lv.1</prereq>
+            <level>12</level>
+        </trait_learning>
+
+    </trait>
+
+    <trait name="Healing+ Lv.3">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases effectiveness of healing spells by 30%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Healing+ Lv.3</property>
+        </trait_properties>
+
+    </trait>
+
+
+    <trait name="Deadly Strike">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increased chance of a critical hit.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Critical+ Lv.1</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Time Stop">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases accuracy and chance of critical hits.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0.3</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Critical+ Lv.2</property>
+        </trait_properties>
+
+    </trait>
+
+
+
+    <trait name="Danmaku Sniper">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increased the maximum and minimum range of attack spells by 1.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Extend Atk Min Range</property>
+            <property>Extend Atk Max Range</property>
+        </trait_properties>
+    </trait>
+
+
+    <trait name="Extended Healing">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increased the maximum range of healing spells and items by 1.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Extend Heal Max Range</property>
+        </trait_properties>
+    </trait>
+
+
+    <trait name="Extend Range">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Decreases attack power by 15%, but increases the range of offensive spells by 1.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>-0.15</STR>
+            <DEF>0</DEF>
+            <MAG>-0.15</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Extend Atk Max Range</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Close Combat">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases attack power, but decreases attack range by 1 (minimum 1).</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0.20</STR>
+            <DEF>0</DEF>
+            <MAG>0.20</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Reduce Atk Max Range</property>
+        </trait_properties>
+    </trait>
+
+
+
+    <trait name="Immortal Phoenix">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Revives from death once with 1HP and a 300 SC penalty.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Revive Lv.1</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Nine Lives">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Revives from death once with 50% HP and a 600 SC penalty.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Revive Lv.2</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Hourai Elixir">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Revives from death once with 100% HP at the cost of all SC. Overrides other revive traits.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Revive Lv.3</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Hourai Blade">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic attack by 15%, decreases magic defense by 10%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.15</MAG>
+            <MDEF>-0.10</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+    <trait name="Shanghai Shield">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases magic defense by 15%, decreases magic attack by 10%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>-0.10</MAG>
+            <MDEF>0.15</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Fighting Spirit">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Spirit charge change per action is multiplied by 1.2.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0.2</spirit_mod>
+    </trait>
+
+    <trait name="Hard Worker">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases EXP gained by 1.2x.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0.2</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Good Health Charm">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Decreases the chance of physical status effects working.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Physical Status</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+    <trait name="Anti-Curse Charm">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Decreases the chance of magical status effects working.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Magical Status</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Support Duration+">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases the duration of buffs from support spells by 2 turns.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Support Duration+</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Dispel Effect">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>All healing spell actions also have a curative effect on Poison, Movement Down, and Dizzy.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Cure Poison</property>
+            <property>Cure Movement Down</property>
+            <property>Cure Dizzy</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Spirit Saver">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Decreases the spirit charge costs for spells by 20%, but makes them less effective by 20%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Spirit Saver</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Spirit Booster">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases the spirit charge costs for spells by 20%, but makes them more effective by 20%.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Spirit Booster</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Eternal Flame">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Provides a resistance to Spiritual and Elemental spells.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Elemental</property>
+            <property>Resist Spiritual</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Attack and Move">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Enables a unit to move after a spell action is used if a previous move has not been made.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Attack Move</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Reporter's Reflex">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Initiates a counterattack action before an enemy takes action.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>First Strike</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Youkai Exterminator">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Additional damage (1.1x) against lower level enemies.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>High Level Bonus</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Fog Veil">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Gives the status "Fog Veil", making this unit untouchable to spell action attacks when enveloped in fog.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Fog Veil</property>
+            <property>Every Turn</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Apothecary">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases the effectiveness of healing items this unit uses.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Healing User+</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+     <trait name="Snack Expert">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Increases the effectiveness of healing items used on this unit.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Healing Receiver+</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Vaccination">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Decreases the chance of physical status effects working.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Physical Status</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+
+    <trait name="Moonstone Lantern">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>The glow of this lantern negates the evasive bonuses of enemies in the fog against Kaguya's attacks.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Ignore Fog</property>
+        </trait_properties>
+    </trait>
+
+    <trait name="Fire Rat's Coat">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>This artifact provides a degree of protection against Elemental and Natural spells.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Elemental</property>
+            <property>Resist Natural</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Dragon's Jewel">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>This artifact increases magic attack and accuracy slightly.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.1</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>5</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+     <trait name="Hourai's Branch">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>This artifact increases magic greatly, but reduces evasion.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.4</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>-10</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+
+    <trait name="Barrier Master">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Yukari's mastery of protective barriers shields against Spiritual and Force spells.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Spiritual</property>
+            <property>Resist Force</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+
+    <trait name="Death's Blessing">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>As an undead being, Yuyuko is more resistant to natural-type spells.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Natural</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <trait name="Invitation">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Instantly dispatch weaker enemies struck with a critical hit.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Critical Conversion</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+
+    <trait name="Heli-pack">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Prototype helicopter backpack allows for flight and greater movement.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">2</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Flight</property>
+        </trait_properties>
+
+    </trait>
+    <trait name="Kappa Scope">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Kappa's device which increases accuracy and range.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>15</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+
+        <trait_properties>
+            <property>Extend Min Range</property>
+            <property>Extend Max Range</property>
+        </trait_properties>
+    </trait>
+    <trait name="Optical Camo">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Experimental cloaking field generator dramatically increases evasion.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>35</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+
+    <trait name="Holy Tree Charm">
+        <!--Declare Support/Action-->
+        <type>Support</type>
+
+        <!--Description-->
+        <desc>Decreases the chance of all status effects working.</desc>
+
+        <!--Stat Modifiers (expects decimal values. Stat is multiplied by 1+x)-->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+        </stat_mods>
+        <hit_bonus>0</hit_bonus>
+        <evade_bonus>0</evade_bonus>
+
+        <!--Movement Modifier (Use add if no movement modifier desired)-->
+        <move_mod type="add">0</move_mod>
+
+        <!--EXP Multiplicative Mod-->
+        <exp_mod>0</exp_mod>
+
+        <trait_properties>
+            <property>Resist Magical Status</property>
+            <property>Resist Physical Status</property>
+        </trait_properties>
+
+        <!--Spirit Charge Multiplicative Mod-->
+        <spirit_mod>0</spirit_mod>
+    </trait>
+
+    <!-- Action traits start here-->
+
+    <trait name="TS Test Trait">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>test</desc>
+
+    </trait>
+
+
+
+    <trait name="Airlift">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Picks up an adjacent unit and allows this unit to carry them. Requires Flight to be active.</desc>
+
+    </trait>
+    <trait name="Dizzy Attack">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>All nearby enemy units and the user have a 75% chance of becoming dizzy, reducing their accuracy.</desc>
+
+    </trait>
+    <trait name="Cat's Curse">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Removes positive status effects from nearby enemy units.</desc>
+
+    </trait>
+    <trait name="Illusion Field">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Casts a spell that increases the evasion of all nearby allies.</desc>
+
+    </trait>
+    <trait name="Focused Movement">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>For this action, increases attack and accuracy, but this unit movement range is decreased.</desc>
+
+    </trait>
+    <trait name="Teleport">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Teleports to any location.</desc>
+
+    </trait>
+    <trait name="Double Action">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>This unit can attack two targets in one turn.</desc>
+
+    </trait>
+    <trait name="Summon Doll">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Alice can summon up to two dolls to help her per battle.</desc>
+
+    </trait>
+    <trait name="Magic Fortress">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Summons a barrier to decrease all damage taken by 25% and increases magic attack by 25%.</desc>
+
+    </trait>
+    <trait name="Field Medic">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Recovers 15% of max HP to all nearby allies.</desc>
+
+    </trait>
+    <trait name="Dispel History">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Removes all negative status effects from a unit.</desc>
+
+    </trait>
+    <trait name="Unleash Grimoire">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Alice draws power from the inside of her magic book, greatly increasing magic attack.</desc>
+
+    </trait>
+    <trait name="Purify">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Removes all status effects from self.</desc>
+
+    </trait>
+    <trait name="Self Destruct">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Detonates and does damage to any adjacent units.</desc>
+
+    </trait>
+    <trait name="Hypnotize">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Hypnotizes a distant enemy and makes them dizzy.</desc>
+
+    </trait>
+    <trait name="Moonglow">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>The glow of the moon places a distance enemy in a trance, causing them to freeze in place for one turn.</desc>
+
+    </trait>
+    <trait name="Regeneration Field">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Gives Regen status to nearby allies.</desc>
+
+    </trait>
+    <trait name="Poison Cloud">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Eirin tosses lots of shady potions around, poisoning nearby enemies.</desc>
+
+    </trait>
+    <trait name="Secret Formula">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>This dangerous concoction has unpredictable effects on nearby enemies and allies alike.</desc>
+
+    </trait>
+    <trait name="False Image">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Reisen's illusion powers let her effectively hide for one turn.</desc>
+
+    </trait>
+    <trait name="Antidote Cloud">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>Eirin's latest invention is a curative gas that neutralizes poisons.</desc>
+
+    </trait>
+    <trait name="Moonstone Arrow">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+
+        <!--Description-->
+        <desc>A shot from Eirin's arrow lights up the surrounding area.</desc>
+
+    </trait>
+
+
+    <trait name="Reactivate">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+        <!--Description-->
+        <desc>Yukari casts a spell to let Ran and Chen to do her bidding once more this turn.</desc>
+    </trait>
+
+    <trait name="Portal Express">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+        <!--Description-->
+        <desc>Recalls any friendly unit next to Yukari with one of her gap portals.</desc>
+    </trait>
+    <trait name="Spirit Away">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+        <!--Description-->
+        <desc>Spirits away an enemy unit to a position adjacent to Yukari. Cannot be used after moving.</desc>
+    </trait>
+
+
+    <trait name="Butterfly Storm">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+        <!--Description-->
+        <desc>Releases a swarm of butterflies to damage nearby enemies and drain health to Yuyuko.</desc>
+    </trait>
+
+
+    <trait name="Spirit Blossom">
+        <!--Declare Support/Action-->
+        <type>Trait Skill</type>
+        <!--Description-->
+        <desc>Drains the spirit charge from nearby enemies to Yuyuko.</desc>
+    </trait>
+
+    <!-- Proximity Traits start here -->
+
+    <trait name="Shikigami: Chen">
+        <type>Proximity</type>
+        <desc>Ran's presence strengthens Chen's STR and MAG by 40% and evasion by 10% if she is adjacent to Ran.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0.4</STR>
+            <DEF>0</DEF>
+            <MAG>0.4</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>10</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Chen</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+    <trait name="Calculator">
+        <type>Proximity</type>
+        <desc>Ran's presence strengthen any adjacent ally's magic by 20%.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.20</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+    <trait name="Black Cat">
+        <type>Proximity</type>
+        <desc>The aura of bad luck surrounding Chen decreases enemy hit rate by 10% at a range of 2.</desc>
+        <team>Enemy</team>
+
+        <range>2</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>-10</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+    <trait name="Tactician">
+        <type>Proximity</type>
+        <desc>Ability to reads the enemies' movements increases the accuracy of nearby units by 10%.</desc>
+        <team>Ally</team>
+
+        <range>2</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>10</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+    <trait name="Mist Field">
+        <type>Proximity</type>
+        <desc>Ayaka's mist veil enhances the evasion of all units around her by 25%.</desc>
+        <team>Ally</team>
+
+        <range>3</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>25</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+
+    <trait name="Youkai Professor">
+        <type>Proximity</type>
+        <desc>Keine's knowledge of enemy attacks increases MDEF and DEF of nearby units.</desc>
+        <team>Ally</team>
+
+        <range>2</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0.3</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.3</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+    </trait>
+
+    <trait name="Hunter and Teacher">
+        <type>Proximity</type>
+        <desc>Mokou and Keine's DEF and MDEF increase by 30% if adjacent to each other. Evasion increases by 10%.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0.3</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.3</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>10</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Keine</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0.3</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.3</MDEF>
+            <ACC>0</ACC>
+            <AGL>0.3</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+        <receive_sources>
+            <source>Keine</source>
+        </receive_sources>
+
+    </trait>
+
+    <trait name="Eternal Rivals">
+        <type>Proximity</type>
+        <desc>Mokou and Kaguya's STR and MAG increase by 30% if adjacent to each other. Hit rate increases by 10%.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0.3</STR>
+            <DEF>0</DEF>
+            <MAG>0.3</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0.3</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>10</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Kaguya</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0.3</STR>
+            <DEF>0</DEF>
+            <MAG>0.3</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0.3</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+        <receive_sources>
+            <source>Kaguya</source>
+        </receive_sources>
+
+    </trait>
+
+    <trait name="Malice Cannon">
+        <type>Proximity</type>
+        <desc>Alice and Marisa's MAG increase by 40% if they are adjacent to each other.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.4</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Marisa</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.4</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+        <receive_sources>
+            <source>Marisa</source>
+        </receive_sources>
+
+    </trait>
+
+	<trait name="Puppet Master">
+		<type>Proximity</type>
+		<desc>Gives a 15% STR/MAG boost to Dolls when within range</desc>
+		<team>Ally</team>
+
+		<range>2</range>
+
+		<emit_mods>
+			<STR>.15</STR>
+			<DEF>0</DEF>
+			<MAG>.15</MAG>
+			<MDEF>0</MDEF>
+			<ACC>0</ACC>
+			<AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+		</emit_mods>
+
+		<emit_targets>
+			<target>Shanghai</target>
+			<target>Hourai</target>
+		</emit_targets>
+
+		<receive_mods>
+			<STR>0</STR>
+			<DEF>0</DEF>
+			<MAG>0</MAG>
+			<MDEF>0</MDEF>
+			<ACC>0</ACC>
+			<AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+		</receive_mods>
+	</trait>
+    <trait name="Buddha's Bowl">
+        <type>Proximity</type>
+        <desc>This legendary artifact increases the defense of units standing near Kaguya.</desc>
+        <team>Ally</team>
+
+        <range>2</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0.6</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+    <trait name="Swallow's Shell">
+        <type>Proximity</type>
+        <desc>This legendary artifact increases the magic defense of units standing near Kaguya.</desc>
+        <team>Ally</team>
+
+        <range>2</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.6</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+    <trait name="Brain of Eientei">
+        <type>Proximity</type>
+        <desc>Increases the accuracy and evasion of Reisen and Kaguya if they are adjacent to Eirin.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>10</hit_bonus>
+            <evade_bonus>10</evade_bonus>
+        </emit_mods>
+
+		<emit_targets>
+			<target>Reisen</target>
+			<target>Kaguya</target>
+		</emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+
+    <!-- Proximity Traits start here -->
+
+    <trait name="Shikigami: Ran">
+        <type>Proximity</type>
+        <desc>Yukari strengthens Ran's MAG by 30% and evasion by 20% if Ran is adjacent to Yukari.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.4</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>20</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Ran</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+    </trait>
+
+
+    <trait name="Border Team">
+        <type>Proximity</type>
+        <desc>Reimu and Yukari's MAG and MDEF increase by 20% if they are adjacent to each other.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.2</MAG>
+            <MDEF>0.2</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Reimu</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.2</MAG>
+            <MDEF>0.2</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+        <receive_sources>
+            <source>Reimu</source>
+        </receive_sources>
+
+    </trait>
+
+    <trait name="Mischevious Duo">
+        <type>Proximity</type>
+        <desc>Yuyuko and Yukari's MAG increases by 30% if they are adjacent to each other.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.3</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Yukari</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0.3</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+        <receive_sources>
+            <source>Yukari</source>
+        </receive_sources>
+
+    </trait>
+    <trait name="Loyal Guardian">
+        <type>Proximity</type>
+        <desc>Yuyuko's DEF and MDEF increases by 30% while Youmu's STR increases by 30% if they are adjacent.</desc>
+        <team>Ally</team>
+
+        <range>1</range>
+
+        <emit_mods>
+            <STR>0.3</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </emit_mods>
+
+        <emit_targets>
+            <target>Youmu</target>
+        </emit_targets>
+
+        <receive_mods>
+            <STR>0</STR>
+            <DEF>0.4</DEF>
+            <MAG>0</MAG>
+            <MDEF>0.4</MDEF>
+            <ACC>0</ACC>
+            <AGL>0</AGL>
+            <hit_bonus>0</hit_bonus>
+            <evade_bonus>0</evade_bonus>
+        </receive_mods>
+
+        <receive_sources>
+            <source>Youmu</source>
+        </receive_sources>
+
+    </trait>
+
+
+</trait_catalog>

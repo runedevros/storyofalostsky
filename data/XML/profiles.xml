@@ -1,0 +1,262 @@
+<profilecatalog>
+    <profile>
+        <name>Youmu Konpaku</name>
+        <title>Half-phantom Gardener</title>
+		<specialty>Swordsmanship</specialty>
+		<portrait>02-youmu-av.png</portrait>
+        <desc>Youmu is a half-ghost gardener that lives in the Netherworld and loyal knight of Lady Yuyuko Saigyouji. Her specialty is both speed and the cutting through most anything with her swords. Still half-baked, this is her first time at the head of an adventure.</desc>
+        <unlock>CH1ST1</unlock>
+    </profile>
+    <profile>
+        <name>Chen</name>
+		<title>Black Cat of Bad Omens</title>
+		<specialty>Surprising People</specialty>
+        <portrait>03-chen-av.png</portrait>
+        <desc>The nimble Chen is Ran's young shikigami. Because she's less experienced than Ran, her magic is much weaker than her master's. However, she makes up for it with her agility and natural resilience.</desc>
+	    <unlock>CH1ST1</unlock>
+	</profile>
+    <profile>
+        <name>Ran Yakumo</name>
+		<title>Scheming Nine-tails</title>
+		<specialty>Illusion Spells</specialty>
+        <portrait>01-ran-av.png</portrait>
+        <desc>It is said that fox spirits gain a tail for every century they live. With a full nine tails, Ran Yakumo serves her master Yukari with wisdom and cunning. She joins Youmu's party with her own shikigami Chen to find their masters.</desc>
+	    <unlock>CH1ST1</unlock>
+	</profile>
+    <profile>
+        <name>Yukari Yakumo</name>
+		<title>Youkai of Boundaries</title>
+		<specialty>Manipulation of Boundaries</specialty>
+        <portrait>12-yukari-av.png</portrait>
+        <desc>Yukari is often the cause of and solution to many of Gensokyo's problems. She's one of the most ancient, and powerful youkai in this land with her ability to manipulate boundaries and show up anywhere without an invitation.</desc>
+		<unlock>CH1ST1</unlock>
+	</profile>
+    <profile>
+        <name>Yuyuko Saigyouji</name>
+		<title>Dreaming Ghost</title>
+		<specialty>Manipulation of Death</specialty>
+        <portrait>11-yuyuko-av.png</portrait>
+        <desc>Yuyuko possesses the terrifying ability to invite any mortal to their death. Thankfully, her playful nature means she is more likely to spend her time teasing others (and annoying Youmu). However, her airheaded personality hides a deep insight into Gensokyo's workings.</desc>
+		<unlock>CH1ST1</unlock>
+	</profile>
+
+    <profile>
+        <name>Kodama Lord</name>
+		<title>Guardians of the Magic Forest</title>
+		<specialty>Can command trees</specialty>
+        <portrait>enemy-kodama-av.png</portrait>
+        <desc>Asleep for generations, the Kodama Lords are the guardians of the forest. Once a tree gets old enough, a Kodama spirit gets attached to it and over time, they gain the ability to manipulate and control other trees. Why have they suddenly woken up after all these years?</desc>
+		<unlock>CH1ST2</unlock>
+	</profile>
+	
+    <profile>
+        <name>Marisa Kirisame</name>
+		<title>Ordinary Black Magician</title>
+		<specialty>Destroying things with magic</specialty>
+        <portrait>04-marisa-av.png</portrait>
+        <desc>The hard working, fast talking witch Marisa lives in the Forest of Magic. Her devastating magic takes the form of her signature move Master Spark, a long range beam attack.</desc>
+		<unlock>CH1ST2</unlock>
+	</profile>
+	
+	
+    <profile>
+        <name>Wriggle Nightbug</name>
+		<title>Swarm of Bright Bugs</title>
+		<specialty>Control of insects</specialty>
+        <portrait>enemy-wriggle-av.png</portrait>
+        <desc>One of the lower ranked youkai in Gensokyo, Wriggle has a swarm of insects around her at all times. After getting evicted fromthe Forest of Magic by the Youkai, she has been spending more time gathering forces near the Misty Lake.</desc>
+		<unlock>CH1ST3</unlock>
+	</profile>
+	
+    <profile>
+        <name>Reimu Hakurei</name>
+		<title>Shrine Maiden of Paradise</title>
+		<specialty>Sealing spells</specialty>
+        <portrait>05-reimu-av.png</portrait>
+        <desc>Reimu is the shrine maiden of the Hakurei Shrine and skilled in the art of exorcism and demon sealing. Although she tends to be lazy, she will go out and resolve Gensokyo's crises when duty calls.</desc>
+		<unlock>CH1ST4</unlock>
+	</profile>
+	
+    <profile>
+        <name>Rinnosuke Morichika</name>
+		<title>Kourindou's Owner</title>
+		<specialty>Identifying artifacts</specialty>
+        <portrait>npc-kourin-av.png</portrait>
+        <desc>Rinnosuke, or Kourin as he's sometimes known, used to run the shop in the Forest of Magic near Marisa's place. Now that he's been kicked out by the Kodama, Kourin spends his days trying to identify various artifacts and try and put his collection back together. I hear he has some nice things he's willing to part with if you find some of those items.</desc>
+		<unlock>CH1ST4</unlock>
+	</profile>
+
+	
+    <profile>
+        <name>Keine Kamishirasawa</name>
+		<title>Bookish Historian</title>
+		<specialty>Manipulation of History</specialty>
+        <portrait>08-keine-av.png</portrait>
+        <desc>Keine runs the only school in the human village, and if you don't pay attention you can expect a hard hitting headbutt. Outside of her job as a teacher, she can protect the village by erasing it from outside viewer's minds.</desc>
+		<unlock>CH2ST1</unlock>
+	</profile>
+	
+    <profile>
+        <name>Hieda no Akyu</name>
+		<title>Memory of Gensokyo</title>
+		<specialty>Perfect memory</specialty>
+        <portrait>npc-akyu-av.png</portrait>
+        <desc>Akyu is the keeper of Gensokyo's records and lives in the human village. She's the 9th in a line of Children of Miare, with the ability to retain over a thousand years of history despite looking no older than a child.</desc>
+		<unlock>CH2ST2</unlock>
+	</profile>
+	
+	
+    <profile>
+        <name>Aya Shameimaru</name>
+		<title>Crow Tengu Journalist</title>
+		<specialty>Fastest in Gensokyo</specialty>
+        <portrait>10-aya-av.png</portrait>
+        <desc>Finally, the real hero appears! I'm the writer of this Bunbunmaru Newspaper, the fastest in Gensokyo, and the first on the scene in every crisis. Like other Crow Tengu, I can summon whirlwinds to blow my enemies away.</desc>
+		<unlock>CH2ST2</unlock>
+	</profile>
+
+    <profile>
+        <name>Alice Margatroid</name>
+		<title>Seven-colored Puppeteer</title>
+		<specialty>Manipulation of dolls</specialty>
+        <portrait>07-alice-av.png</portrait>
+        <desc>Marisa's reclusive neighbor and occasional ally prefers to hide out in her forest home with her dolls. While she's quite fragile, Alice can rely on her trusty dolls Shanghai and Hourai to battle in the front line.</desc>
+		<unlock>CH2SQ2</unlock>
+	</profile>
+	
+    <profile>
+        <name>Fuyuhana Touji</name>
+		<title>Ressurected Forest Lord</title>
+		<specialty>Gathering of Clouds</specialty>
+        <portrait>enemy-fuyuhana-av.png</portrait>
+        <desc>Fuyuhana is one of the most ancient of Kodama Lords, and during her time, she was on the verge of conquering the land we now know as Gensokyo. When she was defeated by a band of heroes, she was allowed to remain as a phantom, bound to a fragment of her branch. Now ressurected at full strength, she's the latest danger to the delicate balance of our land.</desc>
+		<unlock>CH2SQ2</unlock>
+	</profile>
+	
+    <profile>
+        <name>Fujiwara no Mokou</name>
+		<title>Immortal Phoenix</title>
+		<specialty>Immortality</specialty>
+        <portrait>09-mokou-av.png</portrait>
+        <desc>Mokou is one of the three in Gensokyo who took the Hourai Elixir, granting her immortality. She's a bitter rival of Kaguya Houraisan and tries to kill her fairly regularly. One of her signature spells is the summoning of a huge flaming phoenix. Mokou is also close friends with Keine, and showed up to protect her friend during the start of the crisis.</desc>
+		<unlock>CH2ST3</unlock>
+	</profile>
+	
+    <profile>
+        <name>Kodama Lord Ayaka</name>
+		<title>Master Strategist Kodama</title>
+		<specialty>Gathering Mist</specialty>
+        <portrait>enemy-ayaka-av.png</portrait>
+        <desc>Ayaka dates from Fuyuhana's age, and displays absolute loyalty to her master. Her strategic brilliance will give Gensokyo's own geniuses a run for their money. Her specialty is the ability to summon a blanket of mist that protects her from any bullets getting through.</desc>
+		<unlock>CH2ST3</unlock>
+	</profile>
+	
+    <profile>
+        <name>Kodama Lord Haruna</name>
+		<title>Sleepy Kodama Lord</title>
+		<specialty>Accelerating Tree Growth</specialty>
+        <portrait>enemy-haruna-av.png</portrait>
+        <desc>Like Ayaka, she was one of the Kodama who were from the time when they controlled most of the land in Gensokyo. Trees grow and heal faster when they're under her command. Among the four Kodama Lord heads, she's the least war-like.</desc>
+		<unlock>CH2ST3</unlock>
+	</profile>
+	
+    <profile>
+        <name>Kodama Lord Miu</name>
+		<title>Maple Tree Guardian</title>
+		<specialty>Speaking with Animals</specialty>
+        <portrait>enemy-miu-av.png</portrait>
+        <desc>Miu is the youngest of the Kodama Lords. She was born in Gensokyo after the sealing of our land from the outside world. Her ability is to command animals like insects to do her bidding. As an inexperienced Kodama, a direct attack can be enough to scare her off.</desc>
+		<unlock>CH2ST3</unlock>
+	</profile>
+	
+    <profile>
+        <name>Kodama Lord Kotone</name>
+		<title>Youngest and Bravest Kodama</title>
+		<specialty>Exploding Chestnuts</specialty>
+        <portrait>enemy-kotone-av.png</portrait>
+        <desc>Kotone was the Kodama who tried to use Wriggle to defeat Youmu and her party. She's young, brash, bold, and eager to get into a fight. While she doesn't have as well defined abilities as the others, her exploding chestnuts can pack a punch.</desc>
+		<unlock>CH2ST3</unlock>
+	</profile>
+
+    <profile>
+        <name>Lord Fuzzy</name>
+		<title>Giant Ball of Fur</title>
+		<specialty>Immense Size</specialty>
+        <portrait>enemy-fuzzyking-av.png</portrait>
+        <desc>Lord Fuzzy has led the Fuzzballs of the Forest of Magic for many centures. As a fuzzball ages, they grow larger, and so Lord Fuzzy's huge size indicates his age and stature within the Fuzzball community. He can use his size to crush anyone unlucky enough to stand beneath him. Yikes!</desc>
+		<unlock>CH2ST3</unlock>
+	</profile>
+    <profile>
+        <name>Nitori Kawashiro</name>
+		<title>Super Youkai Warhead</title>
+		<specialty>Genius Inventor</specialty>
+        <portrait>14-nitori-av.png</portrait>
+        <desc>Nitori is one of the Kappa who live in the river basin at the bottom of Youkai Mountain. She's concocted a variety of inventions including books which calculate math, devices that let her fly, and a set of clothes that makes her invisible.</desc>
+		<unlock>CH3ST1</unlock>
+	</profile>
+	
+    <profile>
+        <name>Momiji Inubashiri</name>
+		<title>Petty Patrol Tengu</title>
+		<specialty>Ability to see far distances</specialty>
+        <portrait>13-momiji-av.png</portrait>
+        <desc>Momiji is one of the Wolf Tengu who patrols the paths into Youkai Mountain, and was recently put in charge by Lord Tenma of our defenses given her experience with outsiders in the past. Gaining the respect of the Crow Tengu magicians that were assigned to her team is going to be her biggest challenge.</desc>
+		<unlock>CH3ST1</unlock>
+	</profile>
+	
+    <profile>
+        <name>Tsubaki Akahane</name>
+		<title>Red Feathers Commander</title>
+		<specialty>Wind Magic</specialty>
+        <portrait>npc-tsubaki-av.png</portrait>
+        <desc>The bureaucrats inside the Youkai Mountain that lead us don't like to stick their long noses in outsider business, so for these matters the Crow Tengu of the Council of Red Feathers are in charge. Tsubaki's been one of the elder members of the council and she speaks with as much authority as Lord Tenma in affairs with outsiders. She has been one of the most outspoken among us with the need for lessening our isolation, which speaks to the intentions of Lord Tenma in this crisis.</desc>
+		<unlock>CH3ST2</unlock>
+	</profile>
+	
+    <profile>
+        <name>Kodama Lord Misaki</name>
+		<title>Youkai Mountain's Guardian</title>
+		<specialty>Manipulation of volcanic fires</specialty>
+        <portrait>enemy-misaki-av.png</portrait>
+        <desc>Youkai Mountain is the home of the goddess of immortality Iwanaga. The fires that erupt bring destruction, and then rebirth of the land. Misaki was one of the Kodama of the trees that sprouted on the mountain, and as a result of their proximity to Iwanaga's power, her trees are extraordinarily long lived. Misaki's site is sacred to the inhabitants alike, and only a select few are permitted to enter her sactuary. Fuyuhana is descended from Misaki's lineage, explaining her ability to ressurrect.</desc>
+		<unlock>CH3ST4</unlock>
+	</profile>
+	
+	
+    <profile>
+        <name>Eirin Yagokoro</name>
+		<title>Brain of the Moon</title>
+		<specialty>Master pharmacist</specialty>
+        <portrait>16-eirin-av.png</portrait>
+        <desc>Eirin is one of the Lunarians who recently moved into the mansion Eientei in the Bamboo Forest. She can synthesize any medicine or chemical, and was responsible for the elixir that made Kaguya and Mokou immortal. Ever since moving in, Eirin has been an effective doctor and pharmacist, producing miracle cures beyond the understanding of even the Kappa. Nitori's been itching to get a hold on some of the samples to try and figure out how she does it.</desc>
+		<unlock>CH4ST2</unlock>
+	</profile>
+	
+    <profile>
+        <name>Reisen Udongein Inaba</name>
+		<title>Lunatic Red Eyes</title>
+		<specialty>Manipulation of Insanity</specialty>
+        <portrait>17-reisen-av.png</portrait>
+        <desc>Reisen is a moon rabbit who was taken in by Kaguya and Eirin. With her ability to drive anyone who looks at her eyes insane, she's a very effective defense for Eientei. Lately though, Eirin's been sending her into the human village to sell medicines.</desc>
+		<unlock>CH4ST2</unlock>
+	</profile>
+	
+    <profile>
+        <name>Kaguya Houraisan</name>
+		<title>Lunar Princess</title>
+		<specialty>Manipulation of Immortality</specialty>
+        <portrait>15-kaguya-av.png</portrait>
+        <desc>The immortal princess from the moon went into hiding in Gensokyo and lives with Eirin and the rabbits in Eientei. Kaguya's lived mostly a sheltered life with and has some desires to be more involved in Gensokyo's affairs. She has the five legendary artifacts that were brought to her by those that wanted her hand in marriage, each capable of powerful magic in their own right.</desc>
+		<unlock>CH4ST3</unlock>
+	</profile>
+	
+    <profile>
+        <name>Asa</name>
+		<title>Mirror's Living Spirit</title>
+		<specialty>Ability to create doppelgangers</specialty>
+        <portrait>npc-asa-av.png</portrait>
+        <desc>Asa is the incarnation of the Otherworldly Mirror that Haruna sought so badly over the course of this crisis. This artifact was created in a long past era to allow two members of royalty to communicate. Over the years of disuse, she has emerged as the spirit of the item. She has the uncanny ability to read minds and create a duplicate from their memories under her control.</desc>
+		<unlock>CH5SQ3</unlock>
+	</profile>
+
+</profilecatalog>

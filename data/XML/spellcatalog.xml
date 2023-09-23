@@ -1,0 +1,2275 @@
+<spell_catalog>
+
+    <!--Catalog of all the game's spells-->
+    
+    <!-- Generic Spells-->
+    
+    <spell_action name_prefix="Danmaku" name_suffix="Dagger Throw">
+        <type>spell</type>
+        <attack_type>physical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>45</uses>
+        <desc>A spell that summons sharp daggers to fly at the enemy.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2</effect>
+        <shield>1</shield>
+        
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        
+        <restriction type="character">
+            <character>Youmu</character>
+            <character>Chen</character>
+            <character>Mokou</character>
+            <character>Reisen</character>
+        </restriction>
+
+        <animation>all_daggerthrow</animation>
+
+    </spell_action>
+    <spell_action name_prefix="Danmaku" name_suffix="Fireball">
+
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>45</uses>
+        <desc>Several orbs of fire fly towards the enemy and lights them on fire.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2</effect>
+        <shield>1</shield>
+        
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <restriction type="character">
+            <character>Ran</character>
+            <character>Marisa</character>
+            <character>Reimu</character>
+            <character>Alice</character>
+            <character>Aya</character>
+            <character>Yukari</character>
+            <character>Yuyuko</character>
+            <character>Kaguya</character>
+        </restriction>
+        
+        <animation>fireball</animation>
+    </spell_action>
+    <spell_action name_prefix="Danmaku" name_suffix="Holy Amulet">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>45</uses>
+        <desc>These pieces of paper are imbued with spiritual energy.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2</effect>
+        <shield>1</shield>
+        
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <restriction type="character">
+            <character>Ran</character>
+            <character>Marisa</character>
+            <character>Reimu</character>
+            <character>Alice</character>
+            <character>Aya</character>
+            <character>Yukari</character>
+            <character>Yuyuko</character>
+            <character>Kaguya</character>
+        </restriction>
+        
+        <animation>all_holyamulet</animation>
+
+    </spell_action>
+    <spell_action name_prefix="Danmaku" name_suffix="Leaf Crystal">
+        <type>spell</type>
+        <attack_type>physical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>45</uses>
+        <desc>Leaves of crystal glass slice through the opponent.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2</effect>
+        <shield>1</shield>
+        
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <restriction type="character">
+            <character>Youmu</character>
+            <character>Chen</character>
+            <character>Mokou</character>
+            <character>Reisen</character>
+            <character>Aya</character>
+        </restriction>
+        
+        <animation>all_leafcrystal</animation>
+
+    </spell_action>
+    
+    <!--Spell Cards-->
+    <spell_action name_prefix="Love Sign" name_suffix="Master Spark">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>Marisa's trademark magical spell of pure destruction.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>3</effect>
+        <shield>1</shield>
+        
+        <max_range>6</max_range>
+        <min_range>3</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>500</spirit_unlock>
+        <spirit_cost>200</spirit_cost>
+        
+        <counterattack>False</counterattack>
+        
+        <restriction type="character">
+            <character>Marisa</character>
+        </restriction>
+        
+        <animation>marisa_masterspark</animation>
+
+    </spell_action>
+    <spell_action name_prefix="Illusion Sign" name_suffix="Killing Doll">
+        <type>spellcard</type>
+        <attack_type>physical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>3</uses>
+        <desc>One of Sakuya's signature attacks that sends a stream of daggers towards a target.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>40</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.8</effect>
+        <shield>1</shield>
+        
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>400</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+        
+        <counterattack>False</counterattack>
+        
+        <restriction type="character">
+            <character>Sakuya</character>
+        </restriction>
+        
+        <animation>sakuya_killingdoll</animation>
+
+    </spell_action>
+    <spell_action name_prefix="Dream Sign" name_suffix="Fantasy Seal">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>A powerful spell that obliterates Youkai and slows their movements.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>2</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>3</effect>
+        <shield>1</shield>
+        
+        <max_range>3</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>500</spirit_unlock>
+        <spirit_cost>150</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Movement Down</type>
+        	<chance>80</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Reimu</character>
+        </restriction>
+        
+        <animation>reimu_fantasyseal</animation>
+
+    </spell_action>
+    <spell_action name_prefix="6 Realms Sword" name_suffix="Ageless Obsession">
+        <type>spellcard</type>
+        <attack_type>physical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>Short range, but powerful sword attack.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>2</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>3</effect>
+        <shield>1</shield>
+        
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>500</spirit_unlock>
+        <spirit_cost>150</spirit_cost>
+        
+        <counterattack>False</counterattack>
+        
+        <restriction type="character">
+            <character>Youmu</character>
+        </restriction>
+        
+        <animation>youmu_ao</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Shikigami's Radiance" name_suffix="Princess Tenko">
+        <type>support spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>Blessing of the Heavenly Fox, grants health recovery and an increase in evasion.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>2</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+        
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>400</spirit_unlock>
+        <spirit_cost>75</spirit_cost>
+        
+        <counterattack>False</counterattack>
+        
+        <restriction type="character">
+            <character>Ran</character>
+        </restriction>
+
+
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+
+
+        <give_status>Life Bless</give_status>
+        <give_status>Illusion Veil</give_status>
+
+        <animation>ran_princesstenko</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Shikigami Sign" name_suffix="Pentagram Flight">
+        <type>spellcard</type>
+        <attack_type>physical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>Fast moving spell. Dazzling speed may stun an enemy.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>2</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>15</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.5</effect>
+        <shield>1</shield>
+        
+        <max_range>3</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>450</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Stun</type>
+        	<chance>67</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Chen</character>
+        </restriction>
+        
+        <animation>chen_pentagramflight</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Sacred Treasures" name_suffix="Sunbeam Mirror">
+        <type>healing spellcard</type>
+        <uses>3</uses>
+        <desc>Invokes the power of the sacred mirror to fully restore a unit's health.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>15</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>10</effect>
+        <shield>2</shield>
+        
+        <fullres>True</fullres>
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>600</spirit_unlock>
+        <spirit_cost>150</spirit_cost>
+        
+        
+        <restriction type="character">
+            <character>Keine</character>
+        </restriction>
+        
+        <animation>keine_sunbeammirror</animation>
+
+    </spell_action>
+    
+	
+    <spell_action name_prefix="Immortal Firebird" name_suffix="Flying Phoenix">
+        <type>spellcard</type>
+        <attack_type>physical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>3</uses>
+        <desc>Gathers the flames of the Phoenix and unleashes it on the enemy.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>3</STR>
+            <DEF>2</DEF>
+            <MAG>0</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>25</CRIT>
+        </stat_mods>
+        <effect>3</effect>
+        <shield>1</shield>
+        
+        <max_range>3</max_range>
+        <min_range>2</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>400</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+        
+        <counterattack>False</counterattack>
+
+        <restriction type="character">
+            <character>Mokou</character>
+        </restriction>
+        
+        <animation>mokou_phoenix</animation>
+
+    </spell_action>
+
+    <spell_action name_prefix="Magic Sign" name_suffix="Artful Sacrifice">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>5</uses>
+        <desc>Alice throws an explosive doll at the enemy, inflicting stun and dizziness.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>2.5</effect>
+        <shield>1</shield>
+
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>450</spirit_unlock>
+        <spirit_cost>100</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <give_status>
+        	<type>Stun</type>
+        	<chance>80</chance>
+        </give_status>
+        <give_status>
+        	<type>Dizzy</type>
+        	<chance>50</chance>
+        </give_status>
+
+        <restriction type="character">
+            <character>Alice</character>
+        </restriction>
+
+        <animation>alice_dolls</animation>
+
+    </spell_action>
+
+   <spell_action name_prefix="Wind Sign" name_suffix="Tengu Wind Path">
+       <type>spellcard</type>
+       <attack_type>magical</attack_type>
+       <damage_type>physical</damage_type>
+       <uses>5</uses>
+       <desc>A powerful gust rips through the enemy, sending them into a dizzying spin.</desc>
+
+       <!-- Stat mods -->
+       <stat_mods>
+           <STR>0</STR>
+           <DEF>0</DEF>
+           <MAG>0</MAG>
+           <MDEF>0</MDEF>
+           <AGL>0</AGL>
+           <ACC>0</ACC>
+           <CRIT>20</CRIT>
+       </stat_mods>
+       <effect>2.4</effect>
+       <shield>1</shield>
+
+       <max_range>2</max_range>
+       <min_range>1</min_range>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>3</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>350</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <give_status>
+        	<type>Dizzy</type>
+        	<chance>90</chance>
+        </give_status>
+
+        <restriction type="character">
+            <character>Aya</character>
+        </restriction>
+
+        <animation>aya_tornado</animation>
+
+    </spell_action>
+
+
+
+   <spell_action name_prefix="Spread Sign" name_suffix="Invisible Full Moon">
+       <type>spellcard</type>
+       <attack_type>physical</attack_type>
+       <damage_type>physical</damage_type>
+       <uses>3</uses>
+       <desc>A barrage of bullets that can hit enemies far away.</desc>
+
+       <!-- Stat mods -->
+       <stat_mods>
+           <STR>0</STR>
+           <DEF>0</DEF>
+           <MAG>0</MAG>
+           <MDEF>0</MDEF>
+           <AGL>0</AGL>
+           <ACC>0</ACC>
+           <CRIT>0</CRIT>
+       </stat_mods>
+       <effect>2.5</effect>
+       <shield>1</shield>
+
+        <max_range>7</max_range>
+        <min_range>4</min_range>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>3</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>375</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <restriction type="character">
+            <character>Reisen</character>
+        </restriction>
+
+        <animation>reisen_ifm</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="New Impossible Request" name_suffix="Mysterium">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>3</uses>
+        <desc>A secret treasure embodying the endless power of lunar magic.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>2.8</effect>
+        <shield>1</shield>
+
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>500</spirit_unlock>
+        <spirit_cost>150</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <restriction type="character">
+            <character>Kaguya</character>
+        </restriction>
+
+        <animation>kaguya_mysterium</animation>
+
+    </spell_action>
+
+    <spell_action name_prefix="Esoterica" name_suffix="Astral Entombing">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>A sealing spell derived from lunar magic that imprisons the target in a cage.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>2.2</effect>
+        <shield>1</shield>
+
+        <max_range>5</max_range>
+        <min_range>1</min_range>
+
+
+        <give_status>
+        	<type>Immobilize</type>
+        	<chance>90</chance>
+        </give_status>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>400</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+
+
+        <restriction type="character">
+            <character>Eirin</character>
+        </restriction>
+
+        <animation>eirin_astral</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="Shikigami" name_suffix="Ran and Chen">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>Yukari summons Ran and Chen to do a combined attack.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>3.5</effect>
+        <shield>1</shield>
+
+        <max_range>4</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>700</spirit_unlock>
+        <spirit_cost>150</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+
+
+        <restriction type="character">
+            <character>Yukari</character>
+        </restriction>
+
+        <animation>yukari_ran_and_chen</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="Ghostly Dance" name_suffix="Resurrection Butterfly">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>2</uses>
+        <desc>A spell card which summons the souls of the dead in the form of butterflies.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>5</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>3.8</effect>
+        <shield>1</shield>
+
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>750</spirit_unlock>
+        <spirit_cost>550</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <restriction type="character">
+            <character>Yuyuko</character>
+        </restriction>
+
+        <animation>yuyuko_resurrectionbutterfly</animation>
+
+    </spell_action>
+
+    <spell_action name_prefix="Forest Guardian Sign" name_suffix="Pollenating Butterfly">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>5</uses>
+        <desc>Butterflies dance and release pollen, causing dizziness to those who are allergic.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.1</effect>
+        <shield>1</shield>
+
+        <max_range>3</max_range>
+        <min_range>1</min_range>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>450</spirit_unlock>
+        <spirit_cost>50</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <give_status>
+        	<type>Dizzy</type>
+        	<chance>75</chance>
+        </give_status>
+
+        <animation>miu_butterfly</animation>
+
+        <restriction type="character">
+            <character>Aya</character>
+            <character>Alice</character>
+            <character>Marisa</character>
+            <character>Kaguya</character>
+        </restriction>
+
+    </spell_action>
+
+    <spell_action name_prefix="Forest Guardian Sign" name_suffix="Chestnut Meteor">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>5</uses>
+        <desc>While delicious roasted, chestnuts raining down on you are pretty dangerous. A short range, but powerful attack.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.7</effect>
+        <shield>1</shield>
+
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>500</spirit_unlock>
+        <spirit_cost>100</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <animation>kotone_meteor</animation>
+
+        <restriction type="character">
+            <character>Chen</character>
+            <character>Youmu</character>
+            <character>Mokou</character>
+        </restriction>
+
+    </spell_action>
+
+    <spell_action name_prefix="Forest Guardian Sign" name_suffix="Evergreen Branch">
+        <type>healing spellcard</type>
+        <uses>10</uses>
+        <desc>This regenerative magic is the specialty of the Kodama Lord Haruna and gives a defensive bonus to the holder.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>15</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>3.5</effect>
+        <shield>2</shield>
+
+        <fullres>False</fullres>
+
+        <max_range>9</max_range>
+        <min_range>0</min_range>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>350</spirit_unlock>
+        <spirit_cost>100</spirit_cost>
+
+
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Eirin</character>
+        </restriction>
+
+        <animation>haruna_evergreen</animation>
+
+    </spell_action>
+
+    <spell_action name_prefix="Forest Guardian Sign" name_suffix="Jubokko's Touch">
+        <type>spellcard</type>
+        <attack_type>physical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>10</uses>
+        <desc>Ayaka's spear is said to be made from the wood of a Jubokko demon tree, granting her spells a poisonous effect.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>1.8</effect>
+        <shield>1</shield>
+
+        <max_range>4</max_range>
+        <min_range>1</min_range>
+
+
+        <give_status>
+        	<type>Poison</type>
+        	<chance>100</chance>
+        </give_status>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <animation>ayaka_spear</animation>
+
+    </spell_action>
+
+
+
+    <spell_action name_prefix="Last Word" name_suffix="Pale Mist Spear">
+        <type>spellcard</type>
+        <attack_type>physical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Ayaka's last spell, embodying the vengeful act of a cornered Kodama Lord.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>2.2</effect>
+        <shield>1</shield>
+
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <animation>ayaka_lastword</animation>
+
+    </spell_action>
+
+
+    <!-- Status Effect Spells -->
+    
+    <spell_action name_prefix="Nature Magic" name_suffix="Poison Dust">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>5</uses>
+        <desc>Does a small amount of damage and a 60% chance of inflicting poison.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Poison</type>
+        	<chance>60</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Chen</character>
+            <character>Yuyuko</character>
+        </restriction>
+        
+        <animation>all_poisondust</animation>
+    </spell_action>
+	
+    <spell_action name_prefix="Dazzing Light" name_suffix="Stardust">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Does a small amount of damage and a 80% chance of inflicting stun, causing a unit to stay still for a turn.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Stun</type>
+        	<chance>80</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Chen</character>
+            <character>Reisen</character>
+        </restriction>
+        
+        <animation>all_stardust</animation>
+    </spell_action>
+
+    <spell_action name_prefix="Kappa's Invention" name_suffix="Tanabata Festival">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>10</uses>
+        <desc>A prototype pyrotechnic rocket developed by Nitori. It has a long range with a chance of making the target dizzy.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.7</effect>
+        <shield>1</shield>
+
+        <max_range>3</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <give_status>
+        	<type>Dizzy</type>
+        	<chance>70</chance>
+        </give_status>
+
+        <restriction type="character">
+            <character>Nitori</character>
+            <character>Marisa</character>
+        </restriction>
+
+        <animation>nitori_fireworks</animation>
+    </spell_action>
+    
+    <spell_action name_prefix="Dazzing Light" name_suffix="Shimmering Stars">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Does a small amount of damage and a 80% chance of inflicting dizzy, drastically lowering accuracy.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Dizzy</type>
+        	<chance>80</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Chen</character>
+            <character>Reisen</character>
+        </restriction>
+        
+        <animation>all_shimmeringstars</animation>
+    </spell_action>
+    
+    <spell_action name_prefix="Sealing Magic" name_suffix="Weakening Amulet">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Decreases target's offensive abilities by weakening their resolve.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>3</max_range>
+        <min_range>2</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>STR Down</type>
+        	<chance>100</chance>
+        </give_status>
+        <give_status>
+        	<type>MAG Down</type>
+        	<chance>100</chance>
+        </give_status>
+        
+        
+        <restriction type="character">
+            <character>Reimu</character>
+            <character>Yukari</character>
+        </restriction>
+        
+        <animation>all_weakeningamulet</animation>
+    </spell_action>
+    
+    <spell_action name_prefix="Sealing Magic" name_suffix="Barrier Buster">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Decreases target's defensive abilities by cutting through barriers.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>3</max_range>
+        <min_range>2</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>DEF Down</type>
+        	<chance>100</chance>
+        </give_status>
+        <give_status>
+        	<type>MDEF Down</type>
+        	<chance>100</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Reimu</character>
+            <character>Yukari</character>
+        </restriction>
+        
+        <animation>all_barrierbuster</animation>
+    </spell_action>
+    
+    
+    <spell_action name_prefix="Divine Curse" name_suffix="Spirit Break">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Does a small amount of damage and a 80% chance of inflicting spirit drain, causing the target's SC to gradually decrease.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Spirit Drain</type>
+        	<chance>80</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Reimu</character>
+            <character>Yukari</character>
+        </restriction>
+        
+        <animation>all_spiritbreak</animation>
+    </spell_action>
+    
+    
+    <spell_action name_prefix="Binding Daggers" name_suffix="Feather Pin">
+        <type>spell</type>
+        <attack_type>physical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>Does a small amount of damage and a 80% chance of causing target's movement range to be halved.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1.5</effect>
+        <shield>1</shield>
+        
+        <max_range>1</max_range>
+        <min_range>1</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <counterattack>True</counterattack>
+        
+        <give_status>
+        	<type>Movement Down</type>
+        	<chance>80</chance>
+        </give_status>
+        
+        <restriction type="character">
+            <character>Reimu</character>
+            <character>Chen</character>
+            <character>Aya</character>
+        </restriction>
+        
+        <animation>all_featherpin</animation>
+    </spell_action>
+
+    <!--Healing Spells -->
+    
+    <spell_action name_prefix="Healing Arts" name_suffix="Healing Drop">
+        <type>healing spell</type>
+        <uses>30</uses>
+        <desc>Heals light wounds.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>15</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2</effect>
+        <shield>1</shield>
+       
+        <fullres>False</fullres>
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Eirin</character>
+        </restriction>
+        
+        <animation>all_healingdrop</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Healing Arts" name_suffix="Healing Light">
+        <type>healing spell</type>
+        <uses>10</uses>
+        <desc>Heals more serious wounds.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>15</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>5</effect>
+        <shield>1</shield>
+        
+        <fullres>False</fullres>
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Eirin</character>
+        </restriction>
+        
+        <animation>False</animation>
+
+    </spell_action>
+    
+     <!-- Support Spells -->
+    
+    <spell_action name_prefix="Defense Magic" name_suffix="Mystic Barrier">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Temporarily increases MDEF for 3 turns.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+       
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <give_status>MDEF Up</give_status>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>3</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        
+        <restriction type="character">
+            <character>Ran</character>
+            <character>Yukari</character>
+        </restriction>
+        
+        
+        <animation>all_magicalbarrier</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Defense Magic" name_suffix="Mystic Wall">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Temporarily increases DEF for 3 turns.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+       
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <give_status>DEF Up</give_status>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>3</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <restriction type="character">
+            <character>Ran</character>
+            <character>Yukari</character>
+        </restriction>
+        
+        <animation>all_physicalbarrier</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Healing Magic" name_suffix="Life Bless">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Gives 15% HP regeneration for 4 turns.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+       
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <give_status>Life Bless</give_status>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>1</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Eirin</character>
+        </restriction>
+        
+        <animation>all_lifebless</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Fighting Spirit" name_suffix="Encourage">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Rallies a character to fight on. Temporarily increases STR and MAG for 3 turns.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+       
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <give_status>MAG Up</give_status>
+        <give_status>STR Up</give_status>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>3</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Eirin</character>
+        </restriction>
+        
+        <animation>all_encourage</animation>
+
+    </spell_action>
+    
+    <spell_action name_prefix="Mirage Magic" name_suffix="Illusion Veil">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Gives 20% to evasion.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+       
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <give_status>Illusion Veil</give_status>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>1</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        
+        <restriction type="character">
+            <character>Ran</character>
+            <character>Yukari</character>
+        </restriction>
+        
+        <animation>all_illusionveil</animation>
+
+    </spell_action>
+        <spell_action name_prefix="Seeking Magic" name_suffix="Tracking Shot">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Gives 20% to hit chance.</desc>
+        
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+       
+        
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+        
+        
+        <give_status>Tracking Shot</give_status>
+        
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>1</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+        
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Eirin</character>
+        </restriction>
+        
+        <animation>all_trackingshot</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="Meditation Magic" name_suffix="Spirit Recharge">
+        <type>support spell</type>
+        <uses>15</uses>
+        <desc>Grantes the target an extra 50SC each turn. Magic conjured by the Kappa and Tengu.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>0</effect>
+        <shield>1</shield>
+
+
+        <max_range>2</max_range>
+        <min_range>0</min_range>
+
+
+        <give_status>Spirit Recharge</give_status>
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>1</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <restriction type="character">
+            <character>Keine</character>
+            <character>Ran</character>
+            <character>Eirin</character>
+        </restriction>
+
+        <animation>all_lifebless</animation>
+
+    </spell_action>
+
+    <!--Healing Items-->
+
+    <spell_action name_prefix="Item" name_suffix="Fried Tofu">
+        <type>healing item</type>
+        <uses>5</uses>
+        <desc>Ran's favorite dish. Recovers 40% of target's Max HP</desc>
+        <effect_type>percent</effect_type>
+        <effect>40.0</effect>
+        <max_range>1</max_range>
+        <min_range>0</min_range>
+        <spell_affinity>Natural</spell_affinity>
+        <animation>
+            <bullet_img>orb2</bullet_img>
+        </animation>
+    </spell_action>
+    
+    <spell_action name_prefix="Item" name_suffix="Rice Cake">
+        <type>healing item</type>
+        <uses>10</uses>
+        <desc>It's a kind of plain rice cake without much flavor. Recovers 20HP.</desc>
+        <effect_type>constant</effect_type>
+        <effect>20</effect>
+        <max_range>1</max_range>
+        <min_range>0</min_range>
+        <spell_affinity>Natural</spell_affinity>
+        <animation>
+            <bullet_img>orb2</bullet_img>
+        </animation>
+    </spell_action>
+    
+    <spell_action name_prefix="Item" name_suffix="Medicinal Drop">
+        <type>healing item</type>
+        <uses>10</uses>
+        <desc>A medicinal potion that cures Physical Status effects.</desc>
+        <effect_type>constant</effect_type>
+        <effect>0</effect>
+        <cure_status>Poison</cure_status>
+        <cure_status>Dizzy</cure_status>
+        <cure_status>Movement Down</cure_status>
+        <max_range>1</max_range>
+        <min_range>0</min_range>
+        <spell_affinity>Natural</spell_affinity>
+        <animation>
+            <bullet_img>orb2</bullet_img>
+        </animation>
+    </spell_action>
+    
+    <spell_action name_prefix="Item" name_suffix="Exorcism Tag">
+        <type>healing item</type>
+        <uses>10</uses>
+        <desc>A spell tag that erases Magical Status effects. Can only be equipped by Spiritual Magic users.</desc>
+        <effect_type>constant</effect_type>
+        <effect>0</effect>
+        <cure_status>Spirit Drain</cure_status>
+        <cure_status>MDEF Down</cure_status>
+        <cure_status>DEF Down</cure_status>
+        <cure_status>STR Down</cure_status>
+        <cure_status>MAG Down</cure_status>
+        <max_range>1</max_range>
+        <min_range>0</min_range>
+        <spell_affinity>Spiritual</spell_affinity>
+        <animation>
+            <bullet_img>orb2</bullet_img>
+        </animation>
+
+        <restriction type="character">
+            <character>Reimu</character>
+            <character>Yukari</character>
+        </restriction>
+
+    </spell_action>
+
+
+    <!-- One shot spells -->
+
+
+    <spell_action name_prefix="Awakened Volcano" name_suffix="Iwanaga's Flames">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>45</uses>
+        <desc>Sacred flames from beneath Youkai Mountain.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>3</effect>
+        <shield>1</shield>
+
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>3</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <restriction type="character">
+            <character>Misaki</character>
+        </restriction>
+
+        <animation>misaki_fire</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="Kodama Lord's Curse" name_suffix="Withering Fall">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>20</uses>
+        <desc>The curse of a weakened Kodama Lord. Slows down the target and may cause them to lose spiritual energy. </desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>1</effect>
+        <shield>1</shield>
+
+        <max_range>3</max_range>
+        <min_range>2</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <give_status>
+            <type>Movement Down</type>
+            <chance>80</chance>
+        </give_status>
+        <give_status>
+            <type>Spirit Drain</type>
+            <chance>50</chance>
+        </give_status>
+
+        <restriction type="character">
+            <character>Reimu</character>
+            <character>Chen</character>
+        </restriction>
+
+        <animation>misaki_curse</animation>
+    </spell_action>
+
+    <spell_action name_prefix="Fur Sign" name_suffix="Fuzzball Swarm">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>45</uses>
+        <desc>Unleashes a swarm of fuzzballs to overwhelm the enemy.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.5</effect>
+        <shield>1</shield>
+
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Force</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <restriction type="character">
+        </restriction>
+
+        <animation>fuzzball_swarm</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="Mirror Sign" name_suffix="Reflected Temenos">
+        <type>spellcard</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>45</uses>
+        <desc>A long range beam attack that reflects power from far away magic sources.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>15</CRIT>
+        </stat_mods>
+        <effect>2.3</effect>
+        <shield>1</shield>
+
+        <max_range>6</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>4</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>False</counterattack>
+
+        <animation>asa_reflectedtemenos</animation>
+
+    </spell_action>
+
+
+    <spell_action name_prefix="Gathering Sign" name_suffix="Clouds and Sun">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>50</uses>
+        <desc>A long range attack that draws upon Fuyuhana's cloud gathering ability. Draws from local spirit sources to cast.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>4</effect>
+        <shield>1</shield>
+
+        <max_range>7</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Elemental</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <animation>fuyuhana_cloudsandsun</animation>
+    </spell_action>
+
+    <spell_action name_prefix="Forest Guardian Sign" name_suffix="Great Mother Tree">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>50</uses>
+        <desc>Danmaku that manifests the Kodamas' ability to nurture the trees they care for.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2</effect>
+        <shield>1</shield>
+
+        <max_range>2</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Natural</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <animation>fuyuhana_mightytree</animation>
+    </spell_action>
+
+    <spell_action name_prefix="Last Word" name_suffix="Ashes of Iwanaga">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>magical</damage_type>
+        <uses>50</uses>
+        <desc>The final curse of a Kodama which ensures that all flowers which bloom turn to ash.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.75</effect>
+        <shield>1</shield>
+
+        <max_range>3</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+        <give_status>
+            <type>Movement Down</type>
+            <chance>65</chance>
+        </give_status>
+        <give_status>
+            <type>Poison</type>
+            <chance>95</chance>
+        </give_status>
+
+        <animation>fuyuhana_iwanagaashes</animation>
+    </spell_action>
+
+    <spell_action name_prefix="Tengu's Magic" name_suffix="Red Feather Gale">
+        <type>spell</type>
+        <attack_type>magical</attack_type>
+        <damage_type>physical</damage_type>
+        <uses>45</uses>
+        <desc>A swarm of birds is summoned and released towards the enemy, causing dizziness.</desc>
+
+        <!-- Stat mods -->
+        <stat_mods>
+            <STR>0</STR>
+            <DEF>0</DEF>
+            <MAG>0</MAG>
+            <MDEF>0</MDEF>
+            <AGL>0</AGL>
+            <ACC>0</ACC>
+            <CRIT>0</CRIT>
+        </stat_mods>
+        <effect>2.2</effect>
+        <shield>1</shield>
+
+        <max_range>3</max_range>
+        <min_range>1</min_range>
+
+
+        <!--Magic School / Spell Rank-->
+        <spell_affinity>Spiritual</spell_affinity>
+        <spell_rank>2</spell_rank>
+
+        <!--SC Unlock Level-->
+        <spirit_unlock>0</spirit_unlock>
+        <spirit_cost>0</spirit_cost>
+
+        <counterattack>True</counterattack>
+
+
+        <restriction type="character">
+            <character>Youmu</character>
+        </restriction>
+
+        <animation>tsubaki_redfeathers</animation>
+
+        <give_status>
+            <type>Dizzy</type>
+            <chance>95</chance>
+        </give_status>
+    </spell_action>
+
+</spell_catalog>

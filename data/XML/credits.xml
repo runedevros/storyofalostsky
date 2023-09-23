@@ -1,0 +1,144 @@
+<credits>
+    <segment title="Level Design">
+        <line>Kregon</line>
+        <line>rune_devros</line>
+        <line>SleepyD</line>
+    </segment>
+    <segment title="Programming">
+        <line>Beanbeanman29</line>
+        <line>Kregon</line>
+        <line>Kyre</line>
+        <line>rfw</line>
+        <line>rune_devros</line>
+        <line>SleepyD</line>
+    </segment>
+    <segment title="Art">
+        <line>Alcor</line>
+        <line>Aleisha</line>
+        <line>almondette</line>
+        <line>Bitmapchaos</line>
+        <line>Elcura</line>
+        <line>Honya-chan</line>
+        <line>Jamuko</line>
+        <line>MoldyKeyk</line>
+        <line>Moooo</line>
+        <line>Nazerine</line>
+        <line>Taron</line>
+        <line>Walfas</line>
+        <line>Water_and_wind</line>
+    </segment>
+    <segment title="Music">
+        <line>Anunsew</line>
+        <line>Crescentia</line>
+        <line>Damian</line>
+        <line>Lego</line>
+        <line>Nazerine</line>
+    </segment>
+    <segment title="Design Advisors">
+        <line>MoldyKeyk</line>
+        <line>Psieye</line>
+        <line>Rukaroa</line>
+        <line>Tiran</line>
+        <line>Zer0Axiom</line>
+    </segment>
+    <segment title="Testing">
+        <line>Anya_fennec</line>
+        <line>Deviryuu</line>
+        <line>Dizzyworld2</line>
+        <line>Gekko</line>
+        <line>Hetdegon</line>
+        <line>J. Szalay</line>
+        <line>Mew77</line>
+        <line>Rukaroa</line>
+        <line>Ryuu</line>
+        <line>Squidgy</line>
+    </segment>
+    <segment title="Web Administrator">
+        <line />
+        <line />
+        <line>Marc-Alex Chan</line>
+        <line />
+        <line />
+    </segment>
+    <segment title="Image Resources">
+        <line>Menu Patterns:</line>
+        <line>Shikosha Design Stencils</line>
+        <line>Landmark Images: Lost Garden</line>
+        <line>Spell Animations: Mr. Bubblewand</line>
+        <line>Icons: Team Pockethouse</line>
+        <line>Sky Photo: Kuri</line>
+        <line>Menu Icons: Lorc</line>
+        <line>Credits Background:</line>
+        <line>Freer and Sackler Gallery</line>
+        <line> (Master of I-nen Seal)</line>
+    </segment>
+    <segment title="SFX Resources">
+        <line>Independent.nu</line>
+        <line>Michel Baradari</line>
+        <line>Soundscalpel.com</line>
+        <line>Blender Foundation</line>
+        <line>Berklee College of Music</line>
+        <line>Windweasel</line>
+        <line>Artisticdude</line>
+        <line>Thecheeseman</line>
+        <line>Silversatyr</line>
+        <line>David McKee</line>
+    </segment>
+    <segment title="Libraries">
+        <line>Pygame 1.9.1</line>
+        <line>Python 2.5</line>
+        <line>GameObjects</line>
+        <line>(William McGugan)</line>
+    </segment>
+    <segment title="Special Thanks">
+        <line>Yuyuko_Saigyoji</line>
+        <line>Heavenchai</line>
+        <line>UVa CAINE</line>
+        <line>Starmen.net</line>
+        <line>Fangamer.net</line>
+        <line>Shrinemaiden.org</line>
+        <line>All Friends on Twitter</line>
+    </segment>
+    <segment title="Original Work">
+        <line>This is a doujin work</line>
+        <line> of Touhou Project</line>
+        <line />
+        <line />
+        <line />
+        <line>By Team Shanghai Alice / ZUN.</line>
+        <line>http://www16.big.or.jp/~zun/</line>
+    </segment>
+    <segment title="Project Leader">
+        <line />
+        <line />
+        <line />
+        <line>rune_devros</line>
+        <line>@rune_devros</line>
+        <line>fawkes@featheredmelody.com</line>
+        <line />
+        <line />
+        <line />
+        <line />
+    </segment>
+    <segment title="Copyright">
+        <line />
+        <line />
+        <line>(c) 2015 Feathered Melody Productions</line>
+        <line />
+        <line>This game is licensed</line>
+        <line>under the BSD licence.</line>
+        <line />
+        <line>See bsd_licence.txt</line>
+    </segment>
+    <segment title="Finally...">
+        <line />
+        <line />
+        <line>Thank you for joining</line>
+        <line>us on this long journey.</line>
+        <line />
+        <line>We hope you enjoyed</line>
+        <line>our vision of Gensokyo!</line>
+        <line />
+    </segment>
+
+</credits>

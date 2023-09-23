@@ -1,0 +1,208 @@
+<spell_recipes>
+
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Fireball</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_fire</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Healing Drop</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_water</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Holy Amulet</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_earth</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Leaf Crystal</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_wood</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Dagger Throw</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_metal</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Shimmering Stars</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_fire</item_id>
+            <quantity>2</quantity>
+        </ingredient>
+        
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Barrier Buster</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_fire</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_earth</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Encourage</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_fire</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_metal</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Life Bless</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_water</item_id>
+            <quantity>2</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Tracking Shot</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_water</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_wood</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Mystic Wall</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_water</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_metal</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Mystic Barrier</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_earth</item_id>
+            <quantity>2</quantity>
+        </ingredient>
+    </recipe>
+    
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Spirit Break</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_earth</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_wood</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Weakening Amulet</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_earth</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_metal</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Poison Dust</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_wood</item_id>
+            <quantity>2</quantity>
+        </ingredient>
+    </recipe>
+    
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Stardust</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_metal</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+        <ingredient>
+            <item_id>synth_wood</item_id>
+            <quantity>1</quantity>
+        </ingredient>
+    </recipe>
+    <recipe>
+        <!--Result of this combination-->
+        <spell_action>Feather Pin</spell_action>
+        
+        <!-- What ingredients are needed to make this spell-->
+        <ingredient>
+            <item_id>synth_metal</item_id>
+            <quantity>2</quantity>
+        </ingredient>
+    </recipe>
+    
+</spell_recipes>

@@ -1,0 +1,836 @@
+<npc_enemy_units>
+
+    <unit name="Fairy">
+        <sprite>enemy-fairy.png</sprite>
+        <portrait>enemy-fairy-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>5</STR>
+            <DEF>3</DEF>
+            <MAG>5</MAG>
+            <MDEF>2</MDEF>
+            <AGL>5</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>Fairy</animation>
+    </unit>
+
+    <unit name="Firefly">
+        <sprite>enemy-firefly.png</sprite>
+        <portrait>enemy-firefly-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>5</STR>
+            <DEF>1</DEF>
+            <MAG>5</MAG>
+            <MDEF>5</MDEF>
+            <AGL>7</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>Firefly</animation>
+    </unit>
+
+    <unit name="Fuzzball">
+        <sprite>enemy-fuzzball-b.png</sprite>
+        <portrait>enemy-fuzzball-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>5</STR>
+            <DEF>3</DEF>
+            <MAG>5</MAG>
+            <MDEF>2</MDEF>
+            <AGL>5</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>Fuzzball</animation>
+    </unit>
+
+    <unit name="Healer Fairy">
+        <sprite>enemy-healerfairy.png</sprite>
+        <portrait>enemy-healerfairy-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>5</MAG>
+            <MDEF>4</MDEF>
+            <AGL>3</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>HealerFairy</animation>
+    </unit>
+
+    <unit name="Walking Tree">
+        <sprite>enemy-tree.png</sprite>
+        <portrait>enemy-tree-av.png</portrait>
+        <moves>2</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>6</STR>
+            <DEF>6</DEF>
+            <MAG>5</MAG>
+            <MDEF>2</MDEF>
+            <AGL>1</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>WalkingTree</animation>
+    </unit>
+    <unit name="Cursed Tree">
+        <sprite>enemy-tree.png</sprite>
+        <portrait>enemy-cursetree-av.png</portrait>
+        <moves>2</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>6</STR>
+            <DEF>4</DEF>
+            <MAG>7</MAG>
+            <MDEF>2</MDEF>
+            <AGL>1</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>WalkingTree</animation>
+    </unit>
+
+    <unit name="Wind Weasel">
+        <sprite>enemy-windweasel.png</sprite>
+        <portrait>enemy-weasel-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>7</STR>
+            <DEF>2</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>8</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>Wind Weasel</animation>
+    </unit>
+
+    <unit name="Wolf Tengu">
+        <sprite>enemy-wolftengu.png</sprite>
+        <portrait>enemy-wolftengu-av.png</portrait>
+        <moves>4</moves>>
+        <stats>
+            <HP>5</HP>
+            <STR>6</STR>
+            <DEF>5</DEF>
+            <MAG>1</MAG>
+            <MDEF>1</MDEF>
+            <AGL>4</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+
+    </unit>
+
+    <unit name="Crow Tengu">
+        <sprite>enemy-crowtengu.png</sprite>
+        <portrait>enemy-crowtengu-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>1</STR>
+            <DEF>5</DEF>
+            <MAG>6</MAG>
+            <MDEF>1</MDEF>
+            <AGL>4</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+
+    </unit>
+
+    <unit name="Kappa">
+        <sprite>enemy-kappa.png</sprite>
+        <portrait>av-placeholder.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>5</STR>
+            <DEF>4</DEF>
+            <MAG>5</MAG>
+            <MDEF>4</MDEF>
+            <AGL>4</AGL>
+            <ACC>8</ACC>
+        </stats>
+        <level>3</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+
+    </unit>
+
+    <!-- Boss Units -->
+
+    <!--CH1ST2 Boss -->
+    <unit name="Kodama Lord">
+        <sprite>enemy-kodama.png</sprite>
+        <portrait>enemy-kodama-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>6</STR>
+            <DEF>3</DEF>
+            <MAG>4</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>Kodama</animation>
+    </unit>
+
+    <!-- CH1ST3 Boss -->
+    <unit name="Wriggle">
+        <sprite>enemy-wriggle.png</sprite>
+        <portrait>enemy-wriggle-av.png</portrait>
+        <moves>7</moves>
+        <stats>
+            <HP>10</HP>
+            <STR>6</STR>
+            <DEF>5</DEF>
+            <MAG>6</MAG>
+            <MDEF>5</MDEF>
+            <AGL>2</AGL>
+            <ACC>6</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>Wriggle</animation>
+    </unit>
+
+    <!-- CH2ST3 Kodama Lord Bosses -->
+    <unit name="Kotone">
+        <sprite>enemy-kotone.png</sprite>
+        <portrait>enemy-kotone-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Ayaka">
+        <sprite>enemy-ayaka.png</sprite>
+        <portrait>enemy-ayaka-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>8</STR>
+            <DEF>3</DEF>
+            <MAG>3</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Haruna">
+        <sprite>enemy-haruna.png</sprite>
+        <portrait>enemy-haruna-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Miu">
+        <sprite>enemy-miu.png</sprite>
+        <portrait>enemy-miu-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>6</MDEF>
+            <AGL>6</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+
+    <!-- CH2ST5 Boss - Lord Fuzzy -->
+    <unit name="Lord Fuzzy">
+        <sprite>enemy-lordfuzzy.png</sprite>
+        <portrait>enemy-fuzzyking-av.png</portrait>
+        <moves>3</moves>
+        <stats>
+            <HP>9</HP>
+            <STR>2</STR>
+            <DEF>7</DEF>
+            <MAG>4</MAG>
+            <MDEF>4</MDEF>
+            <AGL>2</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Youkai</class>
+        <animation>LordFuzzy</animation>
+    </unit>
+
+
+    <!-- CH3ST1 Boss - Momiji and Nitori -->
+    <unit name="Momiji">
+        <sprite>13-momiji.png</sprite>
+        <portrait>13-momiji-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>6</STR>
+            <DEF>5</DEF>
+            <MAG>1</MAG>
+            <MDEF>3</MDEF>
+            <AGL>4</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Warrior</class>
+        <animation>False</animation>
+    </unit>
+
+    <unit name="Nitori">
+        <sprite>14-nitori.png</sprite>
+        <portrait>14-nitori-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>5</STR>
+            <DEF>4</DEF>
+            <MAG>5</MAG>
+            <MDEF>4</MDEF>
+            <AGL>4</AGL>
+            <ACC>8</ACC>
+        </stats>
+        <level>3</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Engineer</class>
+        <animation>False</animation>
+
+    </unit>
+
+
+    <unit name="Misaki">
+        <sprite>enemy-misaki.png</sprite>
+        <portrait>enemy-misaki-av.png</portrait>
+        <moves>3</moves>
+        <stats>
+            <HP>30</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>8</MAG>
+            <MDEF>8</MDEF>
+            <AGL>2</AGL>
+            <ACC>7</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Kodama Lord</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Hitodama">
+        <sprite>enemy-hitodama.png</sprite>
+        <portrait>enemy-hitodama-av.png</portrait>
+        <moves>0</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>6</STR>
+            <DEF>4</DEF>
+            <MAG>6</MAG>
+            <MDEF>4</MDEF>
+            <AGL>4</AGL>
+            <ACC>7</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>enemy</unit_type>
+        <class>Mysterious Orb Thing</class>
+        <animation>False</animation>
+    </unit>
+
+    
+    <!-- Units for Ch4St4 -->
+    
+    
+    <unit name="Ayaka44">
+        <sprite>enemy-ayaka.png</sprite>
+        <portrait>enemy-ayaka-av.png</portrait>
+        <moves>0</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>8</STR>
+            <DEF>3</DEF>
+            <MAG>3</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Haruna44">
+        <sprite>enemy-haruna.png</sprite>
+        <portrait>enemy-haruna-av.png</portrait>
+        <moves>0</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>6</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Miu44">
+        <sprite>enemy-miu.png</sprite>
+        <portrait>enemy-miu-av.png</portrait>
+        <moves>0</moves>
+        <stats>
+            <HP>8</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>6</MDEF>
+            <AGL>6</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+
+
+    <unit name="Ayaka45">
+        <sprite>enemy-ayaka.png</sprite>
+        <portrait>enemy-ayaka-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>25</HP>
+            <STR>12</STR>
+            <DEF>30</DEF>
+            <MAG>3</MAG>
+            <MDEF>30</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+
+
+    <unit name="Asa">
+        <sprite>npc-asa.png</sprite>
+        <portrait>npc-asa-av.png</portrait>
+        <moves>0</moves>
+        <stats>
+            <HP>28</HP>
+            <STR>10</STR>
+            <DEF>6</DEF>
+            <MAG>12</MAG>
+            <MDEF>6</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>Asa</animation>
+    </unit>
+
+    <unit name="Mirror Youmu">
+        <sprite>enemy-myoumu.png</sprite>
+        <portrait>02-youmu-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>7</HP>
+            <STR>8</STR>
+            <DEF>5</DEF>
+            <MAG>1</MAG>
+            <MDEF>2</MDEF>
+            <AGL>4</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>4</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Warrior</class>
+        <animation>MirrorYoumu</animation>
+    </unit>
+    <unit name="Mirror Marisa">
+        <sprite>enemy-mmarisa.png</sprite>
+        <portrait>04-marisa-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>7</HP>
+            <STR>2</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>5</MDEF>
+            <AGL>9</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>4</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Witch</class>
+        <animation>MirrorMarisa</animation>
+    </unit>
+    <unit name="Mirror Misaki">
+        <sprite>enemy-misaki.png</sprite>
+        <portrait>enemy-misaki-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>9</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>8</MAG>
+            <MDEF>8</MDEF>
+            <AGL>2</AGL>
+            <ACC>7</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Kodama Lord</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Mirror Ayaka">
+        <sprite>enemy-ayaka.png</sprite>
+        <portrait>enemy-ayaka-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>9</HP>
+            <STR>8</STR>
+            <DEF>3</DEF>
+            <MAG>3</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+
+
+    <unit name="FinalFuyuhana">
+        <sprite>enemy-fuyuhana.png</sprite>
+        <portrait>enemy-fuyuhana-av.png</portrait>
+        <moves>0</moves>
+        <stats>
+            <HP>30</HP>
+            <STR>6</STR>
+            <DEF>5</DEF>
+            <MAG>6</MAG>
+            <MDEF>5</MDEF>
+            <AGL>6</AGL>
+            <ACC>10</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+
+    <!-- NPC Units -->
+    <unit name="Yuyuko">">
+        <sprite>11-yuyuko.png</sprite>
+        <portrait>11-yuyuko-av.png</portrait>
+        <moves>7</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>10</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Night Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Yukari">
+        <sprite>12-yukari.png</sprite>
+        <portrait>12-yukari-av.png</portrait>
+        <moves>7</moves>
+        <stats>
+            <HP>9</HP>
+            <STR>3</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>7</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <spell_preference>Spiritual</spell_preference>
+        <level>16</level>
+        <unit_type>npc</unit_type>
+        <class>Night Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+
+    <unit name="Aya">
+        <sprite>10-aya.png</sprite>
+        <portrait>10-aya-av.png</portrait>
+        <moves>8</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>4</STR>
+            <DEF>4</DEF>
+            <MAG>6</MAG>
+            <MDEF>6</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Witch</class>
+        <animation>False</animation>
+    </unit>
+
+
+    <unit name="Akyu">
+        <sprite>npc-akyu.png</sprite>
+        <portrait>npc-akyu-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>10</MAG>
+            <MDEF>6</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Elemental Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+
+    <!-- CH2ST3 Fuyuhana -->
+    <unit name="Fuyuhana">
+        <sprite>enemy-fuyuhana.png</sprite>
+        <portrait>enemy-fuyuhana-av.png</portrait>
+        <moves>7</moves>
+        <stats>
+            <HP>16</HP>
+            <STR>8</STR>
+            <DEF>8</DEF>
+            <MAG>8</MAG>
+            <MDEF>8</MDEF>
+            <AGL>6</AGL>
+            <ACC>10</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Youkai</class>
+        <animation>False</animation>
+    </unit>
+
+
+    <unit name="Tsubaki">
+        <sprite>npc-tsubaki.png</sprite>
+        <portrait>npc-tsubaki-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>6</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>8</MAG>
+            <MDEF>10</MDEF>
+            <AGL>7</AGL>
+            <ACC>7</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Elemental Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+
+    <unit name="Rinnosuke">
+        <sprite>npc-kourin.png</sprite>
+        <portrait>npc-kourin-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>10</MAG>
+            <MDEF>6</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Elemental Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+
+    <unit name="Doll">
+        <sprite>enemy-doll.png</sprite>
+        <portrait>enemy-doll-av.png</portrait>
+        <moves>1</moves>
+        <stats>
+            <HP>2</HP>
+            <STR>2</STR>
+            <DEF>4</DEF>
+            <MAG>10</MAG>
+            <MDEF>6</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>1</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>None</class>
+        <animation>False</animation>
+    </unit>
+
+    <unit name="NPCKaguya">
+        <sprite>15-kaguya.png</sprite>
+        <portrait>15-kaguya-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>6</HP>
+            <STR>5</STR>
+            <DEF>8</DEF>
+            <MAG>5</MAG>
+            <MDEF>8</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>18</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>npc</unit_type>
+        <class>Illusionist</class>
+        <animation>False</animation>
+
+    </unit>
+    <unit name="CreditsAlice">
+        <sprite>07-alice-d.png</sprite>
+        <portrait>07-alice-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>6</HP>
+            <STR>5</STR>
+            <DEF>8</DEF>
+            <MAG>5</MAG>
+            <MDEF>8</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>18</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Illusionist</class>
+        <animation>False</animation>
+
+    </unit>
+</npc_enemy_units>

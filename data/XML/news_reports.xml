@@ -1,0 +1,61 @@
+<news_reports>
+    <report name="Rampage in the Forest">
+        <!--Story mission after which this post is displayed-->
+        <mission>Start</mission>
+        <subtitle>Mysterious new youkai responsible for carnage.</subtitle>
+        <date>June 15</date>
+        <location>Central Forest, Forest of Magic</location>
+        <text>Breaking news! Early this morning, hundreds of youkai were seen to be fleeing the Forest of Magic. "In all my years living here, I've never seen the plant youkai act like that before. I'm getting out of here with the rest of my folks." Those were the words of one Fuzz E. Orb, a fuzzball resident of the Forest of Magic. For the last few months, there have been reports of secretive youkai gatherings in the forest. This morning, the hordes of plant youkai took action, attempting to evict anyone who they deemed to not be a native forest dweller.</text>
+    </report>
+	<report name="Ghost Princess Vanishes">
+        <!--Story mission after which this post is displayed-->
+        <subtitle>Yukari Yakumo also missing!</subtitle>
+        <mission>CH2ST2</mission>
+        <date>June 16</date>
+        <location>Central Forest, Forest of Magic</location>
+        <text>This brave reporter got word that both Yukari Yakumo and Yuyuko Saigyouji have both disappeared. Could they be behind the latest crisis? Yuyuko's retainer Youmu Konpaku said, "Well, I'm worried about what happened to Lady Yuyuko and whether she's okay after she disappeared." So what happened to them? I did some digging and it seems that there was a big battle in the forest where Yukari and Yuyuko fought with a ghost that they met in the forest right before this latest crisis began. Wriggle claims to have seen them fight one of those Kodama Lords that has been leading the rampaging trees in the Forest of Magic.</text>
+    </report>
+	<report name="Clouds Vanish from Sky">
+        <!--Story mission after which this post is displayed-->
+        <subtitle>Kodama Lords rally in the name of the forest.</subtitle>
+
+        <mission>CH3ST5</mission>
+        <date>June 16 (Extra!)</date>
+        <location>Human Village, Central Gensokyo</location>
+        <text>Extra! Extra! The latest crisis has just unfolded right in front of our eyes! Late this morning, I was out for a pleasant flight when all of a sudden every cloud vanished suddenly from the sky. The one behind this is no other than the nefarious Fuyuhana Touji, the leader of the Kodama Lords protecting the trees in the Forest of Magic. All the clouds have gathered above the Forest of Magic, apparently the headquarters for this new emerging power figure. I tried to get an interview with Fuyuhana, but I was only able to get in touch with Ayaka, one of her Kodama Lord subordinates. Ayaka said "We're protecting the forest from those who would harm it." The disappearance of the clouds can only mean that the rest of Gensokyo may be facing a drought crisis soon as these selfish trees hoard all the rainwater for themselves.</text>
+    </report>
+    <report name="The Flame Guardian">
+        <!--Story mission after which this post is displayed-->
+        <mission>CH3ST3</mission>
+        <subtitle>Youmu's company journeys to the summit.</subtitle>
+        <date>June 17</date>
+        <location>Tengu Village, Youkai Mountain</location>
+        <text>Misaki has long been revered as one of the guardian of Youkai Mountain. Thousands of years ago, when Youkai Mountain was first settled by the Tengu and Kappa, we made peace with Misaki in exchange for mutually protecting the mountain and her sanctuary. "Misaki is a Kodama Lord, but she also embodies the flames of the goddess Iwanaga that reside inside the mountain. The two powers combined make her immensely powerful. Meeting her will be an awe-inspiring experience in itself, but I hope that we'll be able to get her to see our side," said Professor Keine Kamishirasawa, a schoolteacher accompanying Youmu on her expedition into Youkai Mountain's upper reaches.</text>
+    </report>
+    <report name="Eientei Under Seige">
+        <!--Story mission after which this post is displayed-->
+        <mission>CH3ST6</mission>
+        <subtitle>Lunarians fight desperate battle for survival.</subtitle>
+        <date>June 18</date>
+        <location>River Basin, Youkai Mountain</location>
+        <text>While the Tengu of Youkai Mountain triumphed over the Kodama Lord menace, a simultaneous battle has been waging in the Bamboo Forest to the north. Here, the cute rabbits of Eientei are faced with the full might of the forces under the command of the Kodama Lord Ayaka who has enveloped the entire forest in a thick layer of fog. Since the first attack, the residents of Eientei have not been heard from since.</text>
+    </report>
+    <report name="Counterattack!">
+        <!--Story mission after which this post is displayed-->
+        <mission>CH4ST3</mission>
+        <subtitle>Eientei gambles on a risky strategy.</subtitle>
+        <date>June 19</date>
+        <location>Eientei, Bamboo Forest</location>
+        <text>The Lunarians' fortunes changed suddenly when Youmu arrived late in the evening. After fighting off an attack on Eientei, Youmu's party and the Lunarians came to an agreement. In exchange for driving the Kodama Lords out of the Bamboo Forest, Eirin would help synthesize the oil for the Lantern of Souls. The plan for doing this is bold: seize control of the spirit source points and banish Ayaka's fog in one stroke.  I finally was able to get a comment from Princess Kaguya about their newfound alliance, "Eirin has always said that as residents of Earth, we have a duty to help others. Until now, I didn't know what role that I could play. I want to help resolve this crisis."</text>
+    </report>
+
+    <report name="The Final Battle!">
+        <!--Story mission after which this post is displayed-->
+        <mission>CH5ST1</mission>
+        <subtitle>An end to this war at last?</subtitle>
+        <date>June 20</date>
+        <location>Human Village, Central Gensokyo</location>
+        <text>The Kodama have gathered their remaining forces in the center of the Forest of Magic, likely to defend Fuyuhana's bastion. At the same time, the other three Kodama Lords, Kotone, Miu, and Haruna have all been sighted scattered throughout Gensokyo. Kotone was last heard seen near the Misty Lake, plotting to take over a piece of it to start her own domain. Meanwhile, Miu and Haruna were seen by Tengu patrols lurking near Youkai Mountain. What could they be searching for?</text>
+    </report>
+
+</news_reports>

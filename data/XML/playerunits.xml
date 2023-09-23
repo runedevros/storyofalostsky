@@ -1,0 +1,492 @@
+<unit_catalog>
+
+    <unit name="Ran">
+        <sprite>01-ran-d.png</sprite>
+        <portrait>01-ran-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>6</HP>
+            <STR>5</STR>
+            <DEF>4</DEF>
+            <MAG>5</MAG>
+            <MDEF>4</MDEF>
+            <AGL>6</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>5</level>
+        <spell_ranks>
+            <natural>2</natural>
+            <elemental>4</elemental>
+            <spiritual>1</spiritual>
+            <force>3</force>
+        </spell_ranks>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Illusionist</class>
+        <animation>Ran</animation>
+
+        <death_quote>
+            <line>Ah... Lady Yukari... Perhaps my magic wasn't effective this time enough.</line>
+            <portrait>Ran</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Youmu">
+        <sprite>02-youmu-d.png</sprite>
+        <portrait>02-youmu-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>8</STR>
+            <DEF>5</DEF>
+            <MAG>1</MAG>
+            <MDEF>2</MDEF>
+            <AGL>4</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>4</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Warrior</class>
+        <animation>Youmu</animation>
+
+        <death_quote>
+            <line>Lady Yuyuko, I wasn't strong enough to protect you.</line>
+            <portrait>Youmu</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Chen">
+        <sprite>03-chen-d.png</sprite>
+        <portrait>03-chen-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>4</STR>
+            <DEF>5</DEF>
+            <MAG>4</MAG>
+            <MDEF>5</MDEF>
+            <AGL>9</AGL>
+            <ACC>6</ACC>
+        </stats>
+        <level>3</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Martial Artist</class>
+        <animation>Chen</animation>
+
+
+        <death_quote>
+            <line>I'm sorry, Miss Ran. I'll have to sit the rest of the battle out.</line>
+            <portrait>Chen</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Marisa">
+        <sprite>04-marisa-d.png</sprite>
+        <portrait>04-marisa-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>2</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>5</MDEF>
+            <AGL>9</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>4</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Witch</class>
+        <animation>Marisa</animation>
+
+        <death_quote>
+            <line>Ack! I'm out. I'll blow them to pieces next time with my Master Spark!</line>
+            <portrait>Marisa</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Reimu">
+        <sprite>05-reimu-d.png</sprite>
+        <portrait>05-reimu-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>2</STR>
+            <DEF>2</DEF>
+            <MAG>6</MAG>
+            <MDEF>8</MDEF>
+            <AGL>3</AGL>
+            <ACC>4</ACC>
+        </stats>
+        <level>5</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Spiritualist</class>
+        <animation>False</animation>
+
+        <death_quote>
+            <line>Ah well... Guess my sealing magic didn't work too well this time.</line>
+            <portrait>Reimu</portrait>
+        </death_quote>
+
+    </unit>
+
+
+    <unit name="Sakuya">
+        <sprite>06-sakuya-d.png</sprite>
+        <portrait>06-sakuya-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>6</STR>
+            <DEF>1</DEF>
+            <MAG>3</MAG>
+            <MDEF>2</MDEF>
+            <AGL>10</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>15</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Ninja</class>
+        <animation>Sakuya</animation>
+
+        <death_quote>
+            <line>Oh my, I'm out of this fight for now. How unbecoming of an elegant maid.</line>
+            <portrait>Sakuya</portrait>
+        </death_quote>
+
+    </unit>
+
+
+    <unit name="Alice">
+        <sprite>07-alice-d.png</sprite>
+        <portrait>07-alice-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>2</STR>
+            <DEF>6</DEF>
+            <MAG>7</MAG>
+            <MDEF>8</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>7</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Elemental Sorcerer</class>
+        <animation>Alice</animation>
+    </unit>
+
+    <unit name="Keine">
+        <sprite>08-keine.png</sprite>
+        <portrait>08-keine-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>2</STR>
+            <DEF>2</DEF>
+            <MAG>7</MAG>
+            <MDEF>3</MDEF>
+            <AGL>6</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>6</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Healer</class>
+        <animation>False</animation>
+
+        <death_quote>
+            <line>Curses... I was too weak to protect the village.</line>
+            <portrait>Keine</portrait>
+        </death_quote>
+    </unit>
+
+    <unit name="Mokou">
+        <sprite>09-mokou.png</sprite>
+        <portrait>09-mokou-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>6</STR>
+            <DEF>3</DEF>
+            <MAG>4</MAG>
+            <MDEF>4</MDEF>
+            <AGL>2</AGL>
+            <ACC>6</ACC>
+        </stats>
+        <level>7</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Martial Artist</class>
+        <animation>Mokou</animation>
+
+
+        <death_quote>
+            <line>By the fires of the phoenix, I'll return to burn you to dust!</line>
+            <portrait>Mokou</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Aya">
+        <sprite>10-aya.png</sprite>
+        <portrait>10-aya-av.png</portrait>
+        <moves>8</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>6</STR>
+            <DEF>4</DEF>
+            <MAG>6</MAG>
+            <MDEF>6</MDEF>
+            <AGL>10</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>11</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Witch</class>
+        <animation>False</animation>
+
+
+        <death_quote>
+            <line>I was so close to getting that perfect shot too!</line>
+            <portrait>Aya</portrait>
+        </death_quote>
+
+    </unit>
+    <unit name="Kaguya">
+        <sprite>15-kaguya.png</sprite>
+        <portrait>15-kaguya-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>6</HP>
+            <STR>5</STR>
+            <DEF>8</DEF>
+            <MAG>5</MAG>
+            <MDEF>8</MDEF>
+            <AGL>3</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>15</level>
+        <spell_preference>Spiritual</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Illusionist</class>
+        <animation>False</animation>
+
+        <death_quote>
+            <line>Ugh... I wasn't prepared to be out here fighting, was I?</line>
+            <portrait>Kaguya</portrait>
+        </death_quote>
+
+    </unit>
+    <unit name="Reisen">
+        <sprite>17-reisen.png</sprite>
+        <portrait>17-reisen-av.png</portrait>
+        <moves>6</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>7</STR>
+            <DEF>3</DEF>
+            <MAG>7</MAG>
+            <MDEF>3</MDEF>
+            <AGL>7</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <level>16</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Sniper</class>
+        <animation>False</animation>
+
+        <death_quote>
+            <line>I failed to protect Eientei...</line>
+            <portrait>Reisen</portrait>
+        </death_quote>
+    </unit>
+    <unit name="Eirin">
+        <sprite>16-eirin.png</sprite>
+        <portrait>16-eirin-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>4</HP>
+            <STR>2</STR>
+            <DEF>2</DEF>
+            <MAG>7</MAG>
+            <MDEF>3</MDEF>
+            <AGL>6</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>18</level>
+        <spell_preference>Natural</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Sniper</class>
+        <animation>False</animation>
+
+        <death_quote>
+            <line>Even the brain of the moon was outsmarted...</line>
+            <portrait>Eirin</portrait>
+        </death_quote>
+    </unit>
+
+    <unit name="Yuyuko">
+        <sprite>11-yuyuko.png</sprite>
+        <portrait>11-yuyuko-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>1</STR>
+            <DEF>3</DEF>
+            <MAG>10</MAG>
+            <MDEF>3</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <spell_preference>Elemental</spell_preference>
+        <level>25</level>
+        <unit_type>pc</unit_type>
+        <class>Illusionist</class>
+        <animation>False</animation>
+
+
+        <death_quote>
+            <line>Your danmaku... so beautiful... as cherry blossoms.</line>
+            <portrait>Yuyuko</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Yukari">
+        <sprite>12-yukari.png</sprite>
+        <portrait>12-yukari-av.png</portrait>
+        <moves>7</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>1</STR>
+            <DEF>1</DEF>
+            <MAG>9</MAG>
+            <MDEF>9</MDEF>
+            <AGL>5</AGL>
+            <ACC>5</ACC>
+        </stats>
+        <spell_preference>Spiritual</spell_preference>
+        <level>25</level>
+        <unit_type>pc</unit_type>
+        <class>Night Sorcerer</class>
+        <animation>False</animation>
+
+        <death_quote>
+            <line>Ran, Chen, I'm bowing out for now. Take over for me.</line>
+            <portrait>Yukari</portrait>
+        </death_quote>
+
+    </unit>
+
+    <unit name="Momiji">
+        <sprite>13-momiji.png</sprite>
+        <portrait>13-momiji-av.png</portrait>
+        <moves>4</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>6</STR>
+            <DEF>5</DEF>
+            <MAG>1</MAG>
+            <MDEF>3</MDEF>
+            <AGL>4</AGL>
+            <ACC>2</ACC>
+        </stats>
+        <level>11</level>
+        <spell_preference>Force</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Warrior</class>
+        <animation>False</animation>
+    </unit>
+
+    <unit name="Wriggle">
+        <sprite>enemy-wriggle.png</sprite>
+        <portrait>enemy-wriggle-av.png</portrait>
+        <moves>7</moves>
+        <stats>
+            <HP>6</HP> <!-- Decreased Wriggle's HP to be more reasonable for a PC-->
+            <STR>6</STR>
+            <DEF>5</DEF>
+            <MAG>6</MAG>
+            <MDEF>5</MDEF>
+            <AGL>2</AGL>
+            <ACC>6</ACC>
+        </stats>
+        <level>18</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Bug</class>
+        <animation>Wriggle</animation>
+    </unit>
+
+    <unit name="Nitori">
+        <sprite>14-nitori.png</sprite>
+        <portrait>14-nitori-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>5</HP>
+            <STR>5</STR>
+            <DEF>4</DEF>
+            <MAG>5</MAG>
+            <MDEF>4</MDEF>
+            <AGL>4</AGL>
+            <ACC>8</ACC>
+        </stats>
+        <level>22</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>boss</unit_type>
+        <class>Engineer</class>
+        <animation>False</animation>
+    </unit>
+
+
+    <unit name="Shanghai">
+        <sprite>enemy-doll.png</sprite>
+        <portrait>enemy-doll-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>2</STR>
+            <DEF>2</DEF>
+            <MAG>5</MAG>
+            <MDEF>5</MDEF>
+            <AGL>4</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>7</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Elemental Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+    <unit name="Hourai">
+        <sprite>enemy-doll.png</sprite>
+        <portrait>enemy-doll-av.png</portrait>
+        <moves>5</moves>
+        <stats>
+            <HP>3</HP>
+            <STR>2</STR>
+            <DEF>2</DEF>
+            <MAG>6</MAG>
+            <MDEF>4</MDEF>
+            <AGL>4</AGL>
+            <ACC>3</ACC>
+        </stats>
+        <level>7</level>
+        <spell_preference>Elemental</spell_preference>
+        <unit_type>pc</unit_type>
+        <class>Elemental Sorcerer</class>
+        <animation>False</animation>
+    </unit>
+</unit_catalog>

@@ -1,0 +1,156 @@
+<terrain_data>
+	<terrain name="Deep Water">
+		<id>0</id>
+		<icon>0</icon>
+        <color>(0,0,255)</color>
+		<symbol>w</symbol>
+
+        <!-- Damage changed by this percentage -->
+		<DMG>20</DMG>
+
+        <!-- Evasion chance changed by this percentage -->
+		<EVA>10</EVA>
+        
+		<cost>20</cost>
+		<walk>False</walk>
+		<fly>True</fly>
+        <layer2>False</layer2>
+	</terrain>
+	
+	<terrain name="Field">
+		<id>1</id>
+		<icon>1</icon>
+		<color>(0,200,0)</color>
+		
+		<symbol>g</symbol>
+		
+		<DMG>0</DMG>
+		<EVA>0</EVA>
+
+		<cost>1</cost>
+		<walk>True</walk>
+		<fly>True</fly>
+        <layer2>False</layer2>
+	</terrain>
+	
+	<!-- More Grassy Field -->
+	<terrain name="Field">
+		<id>2</id>
+		<icon>1</icon>
+		<color>(0,200,0)</color>
+		
+		<symbol>h</symbol>
+		
+		<DMG>0</DMG>
+		<EVA>0</EVA>
+		<cost>1</cost>
+		<walk>True</walk>
+		<fly>True</fly>
+        <layer2>False</layer2>
+	</terrain>
+		
+	<terrain name="Road">
+		<id>3</id>
+		<icon>2</icon>
+		<color>(100,100,100)</color>
+		
+		<symbol>r</symbol>
+		
+		<DMG>20</DMG>
+		<EVA>10</EVA>
+
+        <cost>1</cost>
+		<walk>True</walk>
+		<fly>True</fly>
+        <layer2>False</layer2>
+	</terrain>
+
+	<terrain name="Forest">
+		<id>4</id>
+		<icon>3</icon>
+		<color>(0,50,0)</color>
+		
+		<symbol>f</symbol>
+		
+		<DMG>-20</DMG>
+		<EVA>-10</EVA>
+
+		<cost>3</cost>
+		
+		<walk>True</walk>
+		<fly>True</fly>
+        <layer2>False</layer2>
+	</terrain>
+
+	<terrain name="Bamboo">
+		<id>5</id>
+		<icon>7</icon>
+		<color>(0,50,0)</color>
+
+		<symbol>o</symbol>
+
+		<DMG>-20</DMG>
+		<EVA>-10</EVA>
+
+		<cost>3</cost>
+
+		<walk>True</walk>
+		<fly>True</fly>
+        <layer2>False</layer2>
+	</terrain>
+
+
+	<terrain name="Cliff">
+		<id>6</id>
+		<icon>4</icon>
+		<color>(0,50,0)</color>
+
+		<symbol>c</symbol>
+
+		<DMG>-25</DMG>
+		<EVA>0</EVA>
+
+		<cost>99</cost>
+
+		<walk>False</walk>
+		<fly>True</fly>
+        <layer2>True</layer2>
+	</terrain>
+
+
+	<terrain name="Bridge">
+		<id>7</id>
+		<icon>5</icon>
+		<color>(100,100,100)</color>
+
+		<symbol>b</symbol>
+
+		<DMG>20</DMG>
+		<EVA>10</EVA>
+
+		<ACC>0</ACC>
+		<cost>1</cost>
+		<walk>True</walk>
+		<fly>True</fly>
+        <layer2>True</layer2>
+	</terrain>
+
+	<terrain name="Waterfall">
+		<id>8</id>
+		<icon>6</icon>
+		<color>(0,50,0)</color>
+
+		<symbol>wf</symbol>
+
+		<DMG>0</DMG>
+		<EVA>0</EVA>
+
+		<cost>99</cost>
+
+		<walk>False</walk>
+		<fly>True</fly>
+        <layer2>True</layer2>
+	</terrain>
+
+
+</terrain_data>

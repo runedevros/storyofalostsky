@@ -1,0 +1,127 @@
+<animation_set>
+    <id_string>Kodama</id_string>
+    <animation_filename>enemy-kodama-ani.png</animation_filename>
+    
+    <!--Standing Frame-->
+    <animation_sequence type="idle" repeat="True">
+	    <frame>
+		    <frame_coord>(10,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+    </animation_sequence>
+    
+    <animation_sequence type="physical" repeat="False">
+	    <frame>
+		    <frame_coord>(10,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(9,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(8,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(7,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(6,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(5,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(4,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(3,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(2,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(1,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(0,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+    </animation_sequence>
+    
+    <animation_sequence type="magical" repeat="False">
+	    <frame>
+		    <frame_coord>(10,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(9,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(8,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(7,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(6,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(5,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(4,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(3,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(2,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(1,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+        <frame>
+		    <frame_coord>(0,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+    </animation_sequence>
+    
+    <animation_sequence type="cast_physical" repeat="True">
+        <frame>
+		    <frame_coord>(0,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+    </animation_sequence> 
+    
+    <animation_sequence type="cast_magical" repeat="True">
+        <frame>
+		    <frame_coord>(0,0)</frame_coord>
+		    <coords>(0,20)</coords>
+    	</frame>
+    </animation_sequence> 
+       
+    <animation_sequence type="dodge" repeat="False">
+    </animation_sequence>
+    
+    <animation_sequence type="hit" repeat="False">
+    </animation_sequence>
+    
+</animation_set>

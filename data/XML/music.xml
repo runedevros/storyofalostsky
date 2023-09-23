@@ -1,0 +1,58 @@
+<music_catalog>
+    <song name="Title - Theme of Eastern Story">
+        <id_string>title</id_string>
+        <filename>00_title.ogg</filename>
+    </song>
+    <song name="Overworld - The Gensokyo the Gods Loved">
+        <id_string>overworld</id_string>
+        <filename>01_overworld.ogg</filename>
+    </song>
+    <song name="Story Battle - Skies Beyond the Clouds / Demystify Feast">
+        <id_string>battle01</id_string>
+        <filename>02_battle1.ogg</filename>
+    </song>
+    <song name="Field Battle - Extend Ash">
+        <id_string>battle02</id_string>
+        <filename>03_battle2.ogg</filename>
+    </song>
+    <song name="A Peaceful Town - Dream of a Spring Breeze">
+        <id_string>event01</id_string>
+        <filename>04_peaceful_town.ogg</filename>
+    </song>
+    <song name="Minor Battle - Colorful Path / Oriental Dark Flight">
+        <id_string>battle03</id_string>
+        <filename>05_battle3.ogg</filename>
+    </song>
+    <song name="A Dusty Old Shop - Satellite Sidewalk Cafe">
+        <id_string>shop_theme</id_string>
+        <filename>06_shoptheme.ogg</filename>
+    </song>
+    <song name="Forgotten Legends - Wandering a Ghostly Field at Night">
+        <id_string>event02</id_string>
+        <filename>07_storytheme.ogg</filename>
+    </song>
+    <song name="Unlikely Anguish - Last Remote">
+        <id_string>battle04</id_string>
+        <filename>08_crisis.ogg</filename>
+    </song>
+    <song name="Victory! - Mission Results">
+        <id_string>victory_theme</id_string>
+        <filename>09_victory.ogg</filename>
+    </song>
+    <song name="Critical Battle - Sunfall">
+        <id_string>battle05</id_string>
+        <filename>10_battle4.ogg</filename>
+    </song>
+    <song name="Preparing for Battle - Cinderella Cage">
+        <id_string>event03</id_string>
+        <filename>11_preparing_for_battle.ogg</filename>
+    </song>
+    <song name="The Final Battle - Starbow Dream">
+        <id_string>battle06</id_string>
+        <filename>12_finalbattle.ogg</filename>
+    </song>
+    <song name="Credits - Sakura Sakura">
+        <id_string>credits</id_string>
+        <filename>13_credits.ogg</filename>
+    </song>
+</music_catalog>

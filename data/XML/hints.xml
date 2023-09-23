@@ -1,0 +1,38 @@
+<player_hints>
+    <hint name="Spell Alignments">
+        <author>Hieda no Akyu</author>
+        <location>Human Village, Human Village Region</location>
+        <hint_text>The world of magic is one of balance and flow. It is written in the magic texts: "To create the basic world around us Nature gives rise to the Elements. The balanced arrangement of the Elements is where the Spirit of every creature comes from. The Spirit is used to imagine and materialize the Forces such as the swing of a sword. Force is a destructive power that provides Nature with the component of death and completes the cycle." Moving with the flow will increase the effectiveness of your magic.</hint_text>
+    </hint>
+    <hint name="Trait Types">
+        <author>Hieda no Akyu</author>
+        <location>Human Village, Human Village Region</location>
+        <hint_text>Traits may be divided into three types: Support Traits, Proximity Traits, and Trait Skills. Support Traits passively strengthen a unit by increasing an offensive or defensive stat. Proximity Traits provide support to nearby allies or decrease the effectiveness of nearby enemies. Finally, Trait Skills are special actions a unit can take which may cost Spirit Charge.</hint_text>
+    </hint>
+    <hint name="Trait Branches">
+        <author>Hieda no Akyu</author>
+        <location>Human Village, Human Village Region</location>
+        <hint_text>As a unit gains experience, new traits will be available to them in their trait branches. Before each battle, be sure to check what trait branches might be best for the mission.</hint_text>
+    </hint>
+    <hint name="Treasures">
+        <author>Hieda no Akyu</author>
+        <location>Human Village, Human Village Region</location>
+		<prereq>CH1ST4</prereq>
+        <hint_text>Gensokyo is full of treasures and undiscovered artifacts sitting around waiting to be found. Be sure to check in odd places like roadside shrines or out of place trees. I hear that Rinnosuke of Kourindou is offering useful items for some of his lost artifacts.</hint_text>
+    </hint>
+    <hint name="Spell Synthesis">
+        <author>Patchouli Knowledge</author>
+        <location>Scarlet Devil Mansion, Misty Lake Region</location>
+		<prereq>CH1ST4</prereq>
+        <hint_text>I've recently discovered a new method of crafting spells. As any sorcerer knows, the basic five elements are Metal, Earth, Wood, Water, and Fire. From these elements, spell actions can be created and more powerful spells are crafted by combining crystals.</hint_text>
+    </hint>
+    <hint name="Fighting in Fog">
+        <author>Hieda no Akyu</author>
+        <location>Human Village, Human Village Region</location>
+		<prereq>CH3ST6</prereq>
+        <hint_text>When fighting in dense fog, both friend and foe enjoy an easier time dodging attacks. Try attacking from the cover of fog to an enemy exposed by light.</hint_text>
+    </hint>
+
+    
+        
+</player_hints>

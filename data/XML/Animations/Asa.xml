@@ -1,0 +1,242 @@
+<animation_set>
+    <id_string>Asa</id_string>
+    <animation_filename>enemy-asa.png</animation_filename>
+    
+    <!--Standing Frame-->
+    <animation_sequence type="idle" repeat="True">
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(0,18)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(0,20)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(0,22)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(0,24)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,26)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,28)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(0,30)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(0,28)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(0,26)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(0,24)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,22)</coords>
+        </frame>
+        <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(0,20)</coords>
+        </frame>
+
+
+    </animation_sequence>
+    
+    <!--Physical Attack Frame-->
+    <animation_sequence type="physical" repeat="True">
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(1,25)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,22)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(10,16)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(9,15)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,9)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(1,6)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-5,7)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(-9,12)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(-9,19)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-4,24)</coords>
+        </frame>
+    </animation_sequence>
+    
+    <!--Magical Attack Sequence-->
+    <animation_sequence type="magical" repeat="True">
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(1,25)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,22)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(10,16)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(9,15)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,9)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(1,6)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-5,7)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(-9,12)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(-9,19)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-4,24)</coords>
+        </frame>
+    </animation_sequence>
+    
+    <animation_sequence type="cast_physical" repeat="True">
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(1,25)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,22)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(10,16)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(9,15)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,9)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(1,6)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-5,7)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(-9,12)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(-9,19)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-4,24)</coords>
+        </frame>
+    </animation_sequence>
+   
+   <animation_sequence type="cast_magical" repeat="True">
+        <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(1,25)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,22)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(10,16)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(9,15)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(7,9)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(1,6)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-5,7)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(2,0)</frame_coord>
+            <coords>(-9,12)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(0,0)</frame_coord>
+            <coords>(-9,19)</coords>
+        </frame>
+       <frame>
+            <frame_coord>(1,0)</frame_coord>
+            <coords>(-4,24)</coords>
+        </frame>
+    </animation_sequence>
+
+    <!--Dodge Sequence-->
+    <animation_sequence type="dodge" repeat="False">
+    </animation_sequence>
+    
+    
+    <!--Got hit sequence-->
+    <animation_sequence type="hit" repeat="False">
+    </animation_sequence>
+    
+</animation_set>

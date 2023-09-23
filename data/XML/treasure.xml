@@ -1,0 +1,132 @@
+<treasure_catalog>
+
+	<!-- Key Items -->
+    <item name="Broken Lantern">
+        <id_string>broken_lantern</id_string>
+        <type>Key Item</type>
+        <desc>A broken lantern that belongs to Yuyuko Saigyouji. Used to attract ghosts to whoever is carrying it.</desc>
+		<icon>treasure box</icon>
+    </item>
+
+    <item name="Tengu Feather">
+        <id_string>tengu_feather</id_string>
+        <type>Key Item</type>
+        <desc>The sacred feather that marks the owner as one of the Order of the Red Feathers. Allows passage to the uppor portions of Youkai Mountain.</desc>
+        <icon>treasure box</icon>
+    </item>
+
+
+    <item name="Mirror Fragment">
+        <id_string>mirror_fragment</id_string>
+        <type>Key Item</type>
+        <desc>Nitori says that this fragment contains an immense amount of magical energy, but we don't know how to use it yet.</desc>
+        <icon>treasure box</icon>
+    </item>
+
+
+    <!-- Treasure Items -->
+    <item name="Wooden Statue">
+        <id_string>000_statue</id_string>
+        <type>Generic</type>
+        <desc>A crudely carved wooden statue.</desc>
+		<icon>package</icon>
+    </item>
+    <item name="Dusty Talisman">
+        <id_string>001_talisman</id_string>
+        <type>Generic</type>
+        <desc>A talisman that was once used as in exorcising demons.</desc>
+		<icon>package</icon>
+    </item>
+    <item name="Cell Phone">
+        <id_string>002_cellphone</id_string>
+        <type>Generic</type>
+        <desc>A small device that allows people to communicate across large distances</desc>
+		<icon>package</icon>
+    </item>
+    <item name="Ibis Tapestry">
+        <id_string>003_ibistapestry</id_string>
+        <type>Generic</type>
+        <desc>A beautiful scroll painting of a crested ibis, the illusionary bird.</desc>
+		<icon>package</icon>
+    </item>
+    <item name="Magic Lamp">
+        <id_string>004_magiclamp</id_string>
+        <type>Generic</type>
+        <desc>A treasure from a faraway desert land said to grant wishes. It seems to be just an ordinary lamp now.</desc>
+		<icon>package</icon>
+    </item>
+    <item name="Gondolier's Glove">
+        <id_string>005_gondglove</id_string>
+        <type>Generic</type>
+        <desc>A simple, white glove that exudes elegance and grace.</desc>
+        <icon>package</icon>
+    </item>
+    <item name="Parasol">
+        <id_string>006_parasol</id_string>
+        <type>Generic</type>
+        <desc>A red and white parasol that is good for sheltering you from the rain and hitting people.</desc>
+        <icon>package</icon>
+    </item>
+    <item name="Witch's Book of Spells">
+        <id_string>007_spellbook</id_string>
+        <type>Generic</type>
+        <desc>Contains a lot of advanced spells written in an archaic language. Definitely not for beginning magicians. Part of a collection of sorcery books.</desc>
+        <icon>package</icon>
+    </item>
+    <item name="Lucky Cat">
+        <id_string>012_luckycat</id_string>
+        <type>Generic</type>
+        <desc>Also known as Maneki-neko. This statue is said to bring good luck to its owner.</desc>
+        <icon>package</icon>
+    </item>
+    <item name="Angel Feather">
+        <id_string>020_angelfeather</id_string>
+        <type>Generic</type>
+        <desc>The feather of one of the beings who are said to live beyond the sky. Those who hold this feather are given divine blessings.</desc>
+        <icon>package</icon>
+    </item>
+    <item name="Mirror of Truth">
+        <id_string>022_mirroroftruth</id_string>
+        <type>Generic</type>
+        <desc>A magical mirror which can dispel any illusions and reveal the truth.</desc>
+        <icon>package</icon>
+    </item>
+    <item name="Essense of Spring">
+        <id_string>023_essenseofspring</id_string>
+        <type>Generic</type>
+        <desc>A preserved packet of cherry blossom petals bearing the scent of spring.</desc>
+        <icon>package</icon>
+    </item>
+    
+    <!-- Synth Items -->
+    <item name="Lava Rock">
+        <id_string>synth_fire</id_string>
+        <type>Spell Synthesis Item</type>
+        <desc>A small glowing flame is encased in this red rock. Used as a Fire element spell synthesis item.</desc>
+		<icon>orange crystal</icon>
+    </item>
+    <item name="Rain Tear">
+        <id_string>synth_water</id_string>
+        <type>Spell Synthesis Item</type>
+        <desc>The faint sound of raindrops can be heard from this blue stone. Used as a Water element spell synthesis item.</desc>
+		<icon>teal crystal</icon>
+    </item>
+    <item name="Rough Diamond">
+        <id_string>synth_earth</id_string>
+        <type>Spell Synthesis Item</type>
+        <desc>This shimmering diamond was freshly dug out of the ground. Used as an Earth element spell synthesis item.</desc>
+		<icon>silver crystal</icon>
+    </item>
+    <item name="Ancient Amber">
+        <id_string>synth_wood</id_string>
+        <type>Spell Synthesis Item</type>
+        <desc>Long ago, a rare amber crystalized and trapped an insect inside. Used as a Wood element spell synthesis item.</desc>
+		<icon>brown crystal</icon>
+    </item>
+    <item name="Iron Ore">
+        <id_string>synth_metal</id_string>
+        <type>Spell Synthesis Item</type>
+        <desc>A crystal for synthesizing Metal element.</desc>
+		<icon>black crystal</icon>
+    </item>
+</treasure_catalog>

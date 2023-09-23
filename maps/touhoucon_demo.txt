@@ -1,0 +1,42 @@
+33
+20
+ffffffffffffgghwwwhggffffffffffff
+fffffffffffggghwwwhgffffffgggggff
+fffffgggggggghhwwwhggggggggrrrgfg
+ffffggghhhhghhwwwhhggggggggrrrgfg
+fgggghhhwwhhhwwwhhgggffggggrrrggg
+ggghhhwwwwwwwwwhhgggfffffgggggggf
+gghhhwwwwwwwwwhhgggffffffggggggff
+hhhwwwwwhhhhhhhgggffffffffgggggff
+wwwwhhhhhhhhhhgggffffffffffgggfff
+wwwwhhhgggggggggfffffffffffgggfff
+wwwhhggggggggfffffffffffffffggfff
+hhhhgggggggfffffffffffffffffggfff
+ggggggggggfffhhhhffffhhhhfffggffg
+gggggggggggffhrrrhffhggghffhggggg
+gggggggggggghhrrrhhhhgggghhgggggg
+ffggggggggggghhhhhggggggggggggggg
+fffgggggggggggggggggggggggggggggg
+fffffgggggggggggggggggggggggggggg
+fffffffgggggggggggggggggggggggggg
+ffffffffggfgggggggggggggggffffggg
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|(0, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|(1, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|(0, 5)|x|x|x|x|x|x|(1, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|(1, 5)|x|x|x|x|x|x|(2, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|(2, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x

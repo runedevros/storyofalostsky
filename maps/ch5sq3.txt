@@ -1,0 +1,68 @@
+38
+33
+ffffffffgggggggggggggggggggggggfffffff
+fffffffggggggggggggggggggggggggfffffff
+ffffffggggggggggggggggggggggggggffffff
+fffffggggggggggggggggggggggggggggfffff
+ggggggggggggggggggggggggggggggggggfffg
+gggggggggggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggggggggggg
+ggggggggggggggggggggrrrrrggggggggggggg
+ggggggggggggggggggrrrgfgrrrggggggggggg
+ggggggggggggggggrrrggfffggrrrggggggggf
+ggggggggggggggggrggghhfhhgggrgggggggff
+gggggggggffggggrrgoohggghoogrrgggggfff
+ggggggggffffgggrggoogggggooggrgggggfff
+gggggggffffffgrrghhggrrrgghhgrrggggfff
+gggggggfffffggrgfhggrrrrrgghfgrggggfff
+gggggggffffgggrfffggrrrrrggfffrgggggff
+gggggggggfggggrgfhggrrrrrgghfgrgggggff
+ggggggggggggggrrghhggrrrgghhgrrgggggff
+gggggggggggggggrggoogggggooggrggggggff
+ggggggggfffggggrrgoohggghoogrrgggggggf
+gggggfffffffggggrggghhfhhgggrggggfgggf
+ggggffffffffggggrrrggfffggrrrgggfffggf
+gggggfffffffffggggrrrgfgrrrggggffffggf
+gffgggffffffffggggggrrrrrgggggfffffggf
+fffgggffffffffffgggggggggggggffffffggf
+fffgggggggffffffgggggggggggggfffffgggf
+ffffgggggggffffggggggggggggggffffgggff
+ffffffggggggggggggggggggggggffffgggfff
+fffffffgggggggggggggggggggggffggggffff
+ffffffffggfffffffgggggggggggggggggffff
+fffffffffffffffffggggggggggggggfffffff
+ffffffffffffffffffgggggggggggfffffffff
+ffffffffffffffffffgggggggggggfffffffff
+x|x|x|x|x|x|x|x|x|x|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|(4, 2)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|(4, 2)|(4, 3)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 2)|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|(4, 2)|(4, 3)|(4, 4)|x|x|x|x|x|x|x|(2, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(2, 3)|(2, 2)|x|x|x|x|x|x|x
+x|x|x|x|x|x|(4, 2)|(4, 3)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(2, 4)|(2, 3)|(2, 2)|x|x|x|x|x|x
+(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(4, 2)|(4, 3)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(2, 4)|(2, 3)|(2, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)
+(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(2, 4)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)
+(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(2, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x

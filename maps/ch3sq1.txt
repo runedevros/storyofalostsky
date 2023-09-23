@@ -1,0 +1,62 @@
+30
+30
+gffffffgwwggffffffffffffgggggg
+gffffffgwwggffffffffffgggggggg
+ggggggggwwgggggggggggggggggggg
+ggggggggwwgggggggggggggggggggg
+ggggggggwwgggggggggggggggggggg
+hhhhhhhgwwgggggggggggggggggggg
+hhhhhhhgwwggggggggggggggwwgggg
+hhhhhhhgwwwwwwgggwwwwwwwwwwggg
+hhhhhhggwwgggwwwwwgggggggwwwgg
+hhhhhgwwwggrrggwwgggrrrgggwwwg
+hhhhggwwggrhhrggwwgrrhrrgggwwg
+hhggggwwgrhffhrgwgrrhhhrrggwwg
+gggggwwggrhffhrgwgrhhfhhrgggww
+gwwwwwwwggrhhrggwgrrhhhrrgggww
+wwggggwwwggrrgggwggrrhrrggggww
+wggrrgggwwwgggggwwggrrrggggwwg
+ggrhhrggwwwwwwwwwwwgggggggwwgg
+grhffhrggwwwwwwwggwggggggwwwgg
+grhffhrgwwgggggwggwwwwggwwwggf
+ggrhhrgwwggrrrgwwwwwwwwwwwgggf
+wggrrggwggrhhhrggwwwwwwwwwggff
+wwggggwwgrhhhhhrggwwwwwwwgggff
+wwwwgwwgrhhhfhhhrggwwwwwgggfff
+wwwwwwggrhfffffhrgggwwwggggfff
+wwwwwgggrhhhfhhhrgggwwwgggffff
+wwwwwwgggrhhhhhrggggwwwgggffff
+wwwwwwwgggrhhhrgggggwwwgggffff
+wwwwwwwwgggrrrgggggwwwwwggffff
+wwwwwwwwgggggggggwwwwwwwwggfff
+wwwwwwwwwwwwwwwwwwwwwwwwwwggff
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(4, 2)|(3, 3)|(3, 3)
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(3, 2)|(3, 2)|(4, 2)|(4, 3)|(3, 3)|(3, 3)
+(2, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(4, 2)|(3, 6)|(4, 6)|(2, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(4, 2)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(3, 4)|(3, 4)
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(3, 6)|(4, 6)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 4)|x|x
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(3, 6)|(4, 6)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(3, 3)|(3, 4)|(4, 4)|x|x|x
+(2, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(4, 4)|x|x|(2, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(4, 4)|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(0, 6)|(1, 6)|(2, 6)|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(0, 6)|(1, 6)|(2, 6)|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|(0, 5)|x|(0, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|(1, 5)|x|(1, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|(1, 5)|x|(1, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|(2, 5)|x|(2, 5)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|(0, 6)|(1, 6)|(1, 6)|(2, 6)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|(0, 6)|(1, 6)|(1, 6)|(2, 6)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(0, 6)|(1, 6)|(1, 6)|(1, 6)|(2, 6)|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(0, 6)|(1, 6)|(1, 6)|(1, 6)|(2, 6)|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x

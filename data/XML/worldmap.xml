@@ -1,0 +1,856 @@
+<world_map_data>
+            
+    <region_paths>
+        <path>
+            <right>Forest of Magic</right>
+            <left>Netherworld</left>
+        </path>
+        <path>
+            <right>Human Village Region</right>
+            <left>Forest of Magic</left>
+            <prereq>CH1ST3</prereq>
+        </path>
+        <path>
+            <right>Shrine Region</right>
+            <left>Human Village Region</left>
+            <prereq>CH4ST5</prereq>
+        </path>
+        <path>
+            <down>Youkai Mountain</down>
+            <up>Human Village Region</up>
+            <prereq>CH2ST5</prereq>
+        </path>
+        <path>
+            <up>Bamboo Forest</up>
+            <down>Human Village Region</down>
+            <prereq>CH3ST6</prereq>
+        </path>
+
+        <path>
+            <right>Misty Lake Region</right>
+            <left>Youkai Mountain</left>
+            <prereq>CH4ST5</prereq>
+        </path>
+        <path>
+            <up>Shrine Region</up>
+            <down>Misty Lake Region</down>
+            <prereq>CH4ST5</prereq>
+        </path>
+
+
+    </region_paths>
+
+    <region name = "Netherworld" advanced_background="True">
+        <desc>The land the dead is the home of Youmu and Yuyuko.</desc>
+        <coords>(3,7)</coords>
+
+        <background_image>netherworld_bg.jpg</background_image>
+
+        <active_image>nether_select.png</active_image>
+        <inactive_image>nether_dim.png</inactive_image>
+        <hidden_image>nether_sil.png</hidden_image>
+        <image_pos>(50, 125)</image_pos>
+
+        <entrance>Netherworld Gateway</entrance>
+        <portrait>Saigyou Ayakashi</portrait>
+        
+        <location_paths>
+            <path>
+                <up>Saigyou Ayakashi</up>
+                <down>Netherworld Gardens</down>
+            </path>
+            <path>
+                <right>Great Staircase</right>
+                <left>Netherworld Gardens</left>
+            </path>
+            <path>
+                <left>Hakugyoukurou</left>
+                <right>Netherworld Gardens</right>
+            </path>
+            <path>
+                <up>Great Staircase</up>
+                <down>Netherworld Gateway</down>
+            </path>
+        </location_paths>
+        
+        <locations>
+        
+            <location name="Netherworld Gateway">
+
+                <active_image>gate_select.png</active_image>
+                <inactive_image>gate_dim.png</inactive_image>
+                <hidden_image>gate_sil.png</hidden_image>
+                <image_pos>(665, 320)</image_pos>
+
+                <desc>Here lies the border between life and death.</desc>
+                <coords>(21,12)</coords>
+                <type>Gate</type>
+                <portrait>Sky</portrait>
+            </location>
+            
+            <location name="Great Staircase">
+                <active_image>stair_select.png</active_image>
+                <inactive_image>stair_dim.png</inactive_image>
+                <hidden_image>stair_sil.png</hidden_image>
+                <image_pos>(560, 200)</image_pos>
+
+                <desc>An endless flight of stairs leading to the Netherworld's grounds.</desc>
+                <coords>(18,6)</coords>
+                <type>Neutral</type>
+                <portrait>Garden</portrait>
+            </location>
+            
+            <location name="Hakugyoukurou">
+
+                <active_image>haku_select.png</active_image>
+                <inactive_image>haku_dim.png</inactive_image>
+                <hidden_image>haku_sil.png</hidden_image>
+                <image_pos>(80, 200)</image_pos>
+
+                <desc>The home of Yuyuko Saigyouji, the princess of the dead.</desc>
+                <coords>(6,7)</coords>
+                <type>Safe</type>
+                <portrait>Netherworld</portrait>
+            </location>
+            
+            <location name="Netherworld Gardens">
+
+                <active_image>gardens_select.png</active_image>
+                <inactive_image>gardens_dim.png</inactive_image>
+                <hidden_image>gardens_sil.png</hidden_image>
+                <image_pos>(320, 160)</image_pos>
+
+                <desc>These beautiful gardens are filled with colorful blooming trees.</desc>
+                <coords>(12,8)</coords>
+                <type>Danger</type>
+                <portrait>Garden</portrait>
+            </location>
+            
+            <location name="Saigyou Ayakashi">
+
+                <active_image>saigyou_select.png</active_image>
+                <inactive_image>saigyou_dim.png</inactive_image>
+                <hidden_image>saigyou_sil.png</hidden_image>
+                <image_pos>(300, 0)</image_pos>
+
+                <desc>A great demon tree is sealed here, sleeping forever.</desc>
+                <coords>(10,4)</coords>
+                <type>Danger</type>
+                <portrait>Saigyou Ayakashi</portrait>
+            </location>
+            
+        </locations>
+        
+    </region>
+
+    <region name="Forest of Magic" advanced_background="True">
+        <background_image>magic_forest_bg.jpg</background_image>
+
+        <desc>A dangerous forest populated by monsters of all kinds.</desc>
+        <coords>(11,6)</coords>
+        <entrance default="True" direction="right">Western Forest</entrance>
+        <entrance default="False" direction="left">Eastern Forest</entrance>
+        <portrait>Forest</portrait>
+
+
+        <active_image>forest_select.png</active_image>
+        <inactive_image>forest_dim.png</inactive_image>
+        <hidden_image>forest_sil.png</hidden_image>
+        <image_pos>(300, 125)</image_pos>
+
+
+        <location_paths>
+            <path>
+                <left>Western Forest</left>
+                <right>Central Forest</right>
+                <prereq>CH1ST1</prereq>
+            </path>
+            <path>
+                <left>Central Forest</left>
+                <right>Eastern Forest</right>
+                <prereq>CH1ST3</prereq>
+            </path>
+            <path>
+                <down>Central Forest</down>
+                <up>Marisa's House</up>
+                <prereq>CH1ST2</prereq>
+            </path>
+            <path>
+                <up>Eastern Forest</up>
+                <down>Genbu Ravine</down>
+                <prereq>CH1ST3</prereq>
+            </path>
+
+            <path>
+                <left>Alice's House</left>
+                <right>Marisa's House</right>
+                <prereq>CH2SQ1</prereq>
+            </path>
+        </location_paths>
+    
+        <locations>
+
+            <location name="Alice's House">
+                <active_image>alice_house_select.png</active_image>
+                <inactive_image>alice_house_dim.png</inactive_image>
+                <hidden_image>alice_house_sil.png</hidden_image>
+                <image_pos>(40, 15)</image_pos>
+                <prereq>CH2SQ1</prereq>
+
+                <desc>The house of the puppeteer Alice Margatroid.</desc>
+                <coords>(3,3)</coords>
+                <type>Danger</type>
+                <portrait>Forest</portrait>
+            </location>
+
+            <location name="Marisa's House">
+                <active_image>marisa_house_select.png</active_image>
+                <inactive_image>marisa_house_dim.png</inactive_image>
+                <hidden_image>marisa_house_sil.png</hidden_image>
+                <image_pos>(320, 30)</image_pos>
+                <prereq>CH1ST2</prereq>
+
+                <desc>The house of the magician Marisa Kirisame.</desc>
+                <coords>(12,3)</coords>
+                <type>Danger</type>
+                <portrait>Forest</portrait>
+            </location>
+
+            <location name="Western Forest">
+                <active_image>w_forest_select.png</active_image>
+                <inactive_image>w_forest_dim.png</inactive_image>
+                <hidden_image>w_forest_sil.png</hidden_image>
+                <image_pos>(160, 180)</image_pos>
+
+                <desc>The back end of the forest near the Netherworld border</desc>
+                <coords>(6,8)</coords>
+                <type>Gate</type>
+                <portrait>Forest</portrait>
+            </location>
+
+            <location name="Central Forest">
+                <active_image>c_forest_select.png</active_image>
+                <inactive_image>c_forest_dim.png</inactive_image>
+                <hidden_image>c_forest_sil.png</hidden_image>
+                <image_pos>(360, 180)</image_pos>
+                <prereq>CH1ST1</prereq>
+
+
+                <desc>The deepest and darkest part of the forest.</desc>
+                <coords>(12,8)</coords>
+                <type>Danger</type>
+                <portrait>Forest</portrait>
+            </location>
+
+            <location name="Eastern Forest">
+                <active_image>e_forest_select.png</active_image>
+                <inactive_image>e_forest_dim.png</inactive_image>
+                <hidden_image>e_forest_sil.png</hidden_image>
+                <image_pos>(560, 180)</image_pos>
+                <prereq>CH1ST3</prereq>
+
+                <desc>The closest part of the forest to the human village.</desc>
+                <coords>(19,8)</coords>
+                <type>Gate</type>
+                <portrait>Forest</portrait>
+            </location>
+            
+            <location name="Genbu Ravine">
+                <active_image>genbu_select.png</active_image>
+                <inactive_image>genbu_dim.png</inactive_image>
+                <hidden_image>genbu_sil.png</hidden_image>
+                <image_pos>(480, 350)</image_pos>
+                <prereq>CH1ST3</prereq>
+
+                <desc>A marsh that sits between the forest and the Youkai Mountain.</desc>
+                <coords>(19,12)</coords>
+                <type>Danger</type>
+                <portrait>Forest</portrait>
+            </location>
+        </locations>
+        
+    </region>
+    
+    <region name="Bamboo Forest" advanced_background="True">
+        <desc>An endless maze of bamboo that's easy to get lost in.</desc>
+        <coords>(14,3)</coords>
+        <entrance>Southern Thicket</entrance>
+        <portrait>Bamboo Forest</portrait>
+        <prereq>CH3ST6</prereq>
+
+        <background_image>bamboo_bg.jpg</background_image>
+        <active_image>bamboo_select.png</active_image>
+        <inactive_image>bamboo_dim.png</inactive_image>
+        <hidden_image>bamboo_sil.png</hidden_image>
+        <image_pos>(400, 10)</image_pos>
+
+        <location_paths>
+            <path>
+                <up>Bamboo Maze</up>
+                <down>Southern Thicket</down>
+                <prereq>CH4ST1</prereq>
+            </path>
+            <path>
+                <left>Bamboo Maze</left>
+                <right>Mokou's House</right>
+                <prereq>CH4ST1</prereq>
+            </path>
+            <path>
+                <right>Bamboo Maze</right>
+                <left>Eientei</left>
+                <prereq>CH4ST1</prereq>
+            </path>
+            
+        </location_paths>
+        
+        <locations>
+            <location name="Southern Thicket">
+
+                <active_image>bamboo_s_sel.png</active_image>
+                <inactive_image>bamboo_s_dim.png</inactive_image>
+                <hidden_image>bamboo_s_sil.png</hidden_image>
+                <image_pos>(400, 270)</image_pos>
+
+                <desc>The entrance to the maze of bamboo up ahead</desc>
+                <coords>(13,10)</coords>
+                <type>Gate</type>
+                <portrait>Bamboo Forest</portrait>
+            </location>
+
+            <location name="Bamboo Maze">
+
+                <active_image>bamboo_n_sel.png</active_image>
+                <inactive_image>bamboo_n_dim.png</inactive_image>
+                <hidden_image>bamboo_n_sil.png</hidden_image>
+                <image_pos>(440, 100)</image_pos>
+                <prereq>CH4ST1</prereq>
+
+                <desc>Appropriately named, "Bamboo Forest of the Lost."</desc>
+                <coords>(14,6)</coords>
+                <type>Danger</type>
+                <portrait>Bamboo Forest</portrait>
+            </location>
+            <location name="Eientei">
+
+                <active_image>eientei_sel.png</active_image>
+                <inactive_image>eientei_dim.png</inactive_image>
+                <hidden_image>eientei_sil.png</hidden_image>
+                <image_pos>(40, 60)</image_pos>
+                <prereq>CH4ST1</prereq>
+
+                <desc>The mansion of the moon princess, filled with endless halls.</desc>
+                <coords>(5,5)</coords>
+                <type>Neutral</type>
+                <portrait>Bamboo Forest</portrait>
+            </location>
+            <location name="Mokou's House">
+
+                <active_image>mokou_sel.png</active_image>
+                <inactive_image>mokou_dim.png</inactive_image>
+                <hidden_image>mokou_sil.png</hidden_image>
+                <image_pos>(590, 130)</image_pos>
+                <prereq>CH4ST1</prereq>
+
+                <desc>The humble home of Fujiwara no Mokou.</desc>
+                <coords>(18,7)</coords>
+                <type>Safe</type>
+                <portrait>Bamboo Forest</portrait>
+            </location>
+
+        </locations>
+    </region>
+
+    <region name="Human Village Region" advanced_background="True">
+        <desc>The center of human activity in Gensokyo.</desc>
+
+        <background_image>village_bg.jpg</background_image>
+        <coords>(14,6)</coords>
+        <entrance default="True" direction="right">Western Village Path</entrance> 
+        <entrance default="False" direction="left">Eastern Village Path</entrance>
+        <entrance default="False" direction="up">Southern Village Path</entrance>    
+        <entrance default="False" direction="down">Northern Village Path</entrance>   
+        <portrait>Field</portrait>
+        <prereq>CH1ST3</prereq>
+
+        <active_image>village_select.png</active_image>
+        <inactive_image>village_dim.png</inactive_image>
+        <hidden_image>village_sil.png</hidden_image>
+        <image_pos>(460, 160)</image_pos>
+
+        <location_paths>
+            <path>
+                <up>Graveyard</up>
+                <down>Human Village</down>
+                <prereq>CH2ST2</prereq>
+            </path>
+            <path>
+                <left>Western Village Path</left>
+                <right>Human Village</right>
+                <prereq>CH1ST4</prereq>
+            </path>
+            <path>
+                <down>Southern Village Path</down>
+                <up>Human Village</up>
+                <prereq>CH2ST4</prereq>
+            </path>
+            <path>
+                <right>Farm Fields</right>
+                <left>Human Village</left>
+                <prereq>CH2ST4</prereq>
+            </path>
+            <path>
+                <left>Farm Fields</left>
+                <right>Eastern Village Path</right>
+                <prereq>CH4ST5</prereq>
+            </path>
+            <path>
+                <down>Farm Fields</down>
+                <up>Northern Village Path</up>
+                <prereq>CH3ST6</prereq>
+            </path>
+            
+        </location_paths>
+        
+        <locations>
+            <location name="Human Village">
+
+                <active_image>village_location_select.png</active_image>
+                <inactive_image>village_location_dim.png</inactive_image>
+                <hidden_image>village_location_sil.png</hidden_image>
+                <image_pos>(230, 190)</image_pos>
+                <prereq>CH1ST4</prereq>
+
+                <desc>The main village of humans in Gensokyo.</desc>
+                <coords>(9,7)</coords>
+                <type>Safe</type>
+                <portrait>Field</portrait>
+            </location>
+            <location name="Graveyard">
+
+                <active_image>grave_select.png</active_image>
+                <inactive_image>grave_dim.png</inactive_image>
+                <hidden_image>grave_sil.png</hidden_image>
+                <image_pos>(150, 5)</image_pos>
+                <prereq>CH2ST2</prereq>
+
+                <desc>The dead from the human village are buried here.</desc>
+                <coords>(8,3)</coords>
+                <type>Danger</type>
+                <portrait>Graveyard</portrait>
+            </location>
+            <location name="Western Village Path">
+
+                <active_image>village_west_select.png</active_image>
+                <inactive_image>village_west_dim.png</inactive_image>
+                <hidden_image>village_west_sil.png</hidden_image>
+                <image_pos>(25, 170)</image_pos>
+                <prereq>CH1ST3</prereq>
+
+                <desc>This path leads to the Forest of Magic</desc>
+                <coords>(3,5)</coords>
+                <type>Gate</type>
+                <portrait>Field</portrait>
+            </location>
+            <location name="Southern Village Path">
+
+
+                <active_image>village_south_select.png</active_image>
+                <inactive_image>village_south_dim.png</inactive_image>
+                <hidden_image>village_south_sil.png</hidden_image>
+                <image_pos>(280, 300)</image_pos>
+                <prereq>CH2ST4</prereq>
+
+                <desc>This path leads to the Youkai Mountain</desc>
+                <coords>(9,10)</coords>
+                <type>Gate</type>
+                <portrait>Field</portrait>
+            </location>
+            <location name="Eastern Village Path">
+
+                <active_image>village_east_select.png</active_image>
+                <inactive_image>village_east_dim.png</inactive_image>
+                <hidden_image>village_east_sil.png</hidden_image>
+                <image_pos>(660, 200)</image_pos>
+                <prereq>CH4ST5</prereq>
+
+                <desc>This path leads to the Hakurei Shrine </desc>
+                <coords>(20,7)</coords>
+                <type>Gate</type>
+                <portrait>Field</portrait>
+            </location>
+            <location name="Northern Village Path">
+
+                <active_image>village_north_select.png</active_image>
+                <inactive_image>village_north_dim.png</inactive_image>
+                <hidden_image>village_north_sil.png</hidden_image>
+                <image_pos>(480, 100)</image_pos>
+                <prereq>CH3ST6</prereq>
+
+                <desc>This path leads to the Bamboo Forest</desc>
+                <coords>(15,3)</coords>
+                <type>Gate</type>
+                <portrait>Field</portrait>
+            </location>
+            <location name="Farm Fields">
+
+
+                <active_image>farm_select.png</active_image>
+                <inactive_image>farm_dim.png</inactive_image>
+                <hidden_image>farm_sil.png</hidden_image>
+                <image_pos>(430, 190)</image_pos>
+                <prereq>CH2ST4</prereq>
+
+                <desc>The fields are nurtured by water from the river of the mountain.</desc>
+                <coords>(15,6)</coords>
+                <type>Neutral</type>
+                <portrait>Field</portrait>
+            </location>
+        </locations>
+            
+    </region>
+    
+    <region name="Youkai Mountain" advanced_background="True">
+        <desc>A volcanic mountain controlled by the Tengu and Kappa.</desc>
+        <coords>(14,11)</coords>
+        <entrance>Great Youkai Forest</entrance>
+        <portrait>Sky</portrait>
+
+
+        <background_image>youkai_mountain_bg.jpg</background_image>
+
+        <active_image>youkai_mt_select.png</active_image>
+        <inactive_image>youkai_mt_dim.png</inactive_image>
+        <hidden_image>youkai_mt_sil.png</hidden_image>
+        <image_pos>(425, 265)</image_pos>
+
+        <prereq>CH2ST5</prereq>
+
+        <location_paths>
+            <path>
+                <right>River Basin</right>
+                <left>Great Youkai Forest</left>
+            </path>
+            <path>
+                <up>Nine Heavens Waterfall</up>
+                <down>River Basin</down>
+                <prereq>CH3ST1</prereq>
+            </path>
+            <path>
+                <right>Moriya Shrine</right>
+                <left>Nine Heavens Waterfall</left>
+                <prereq>CH3ST1</prereq>
+            </path>
+            <path>
+                <up>Wind God's Lake</up>
+                <down>Moriya Shrine</down>
+                <prereq>CH3ST1</prereq>
+            </path>
+            <path>
+                <up>Upper Youkai Mountain</up>
+                <down>Nine Heavens Waterfall</down>
+                <prereq>CH3ST3</prereq>
+            </path>
+            <path>
+                <up>Summit</up>
+                <down>Upper Youkai Mountain</down>
+                <prereq>CH3ST4</prereq>
+            </path>
+        </location_paths>
+        
+        <locations>
+        
+            <location name="Great Youkai Forest">
+
+
+                <active_image>ym_forest_select.png</active_image>
+                <inactive_image>ym_forest_dim.png</inactive_image>
+                <hidden_image>ym_forest_sil.png</hidden_image>
+                <image_pos>(50, 300)</image_pos>
+                <prereq>CH2ST5</prereq>
+
+
+                <desc>A dangerous forest at the foot of the mountain</desc>
+                <coords>(4,12)</coords>
+                <type>Gate</type>
+                <portrait>Forest</portrait>
+            </location>
+            <location name="River Basin">
+
+                <active_image>basin_select.png</active_image>
+                <inactive_image>basin_dim.png</inactive_image>
+                <hidden_image>basin_sil.png</hidden_image>
+                <image_pos>(310, 340)</image_pos>
+                <prereq>CH2ST5</prereq>
+
+                <desc>Youkai mountain's river basin is home of the Kappa.</desc>
+                <coords>(12,12)</coords>
+                <type>Neutral</type>
+                <portrait>Field</portrait>
+            </location>
+            <location name="Nine Heavens Waterfall">
+
+
+                <active_image>falls_select.png</active_image>
+                <inactive_image>falls_dim.png</inactive_image>
+                <hidden_image>falls_sil.png</hidden_image>
+                <image_pos>(332, 185)</image_pos>
+                <prereq>CH3ST1</prereq>
+
+                <desc>A tall waterfall blocks further entry into the Tengu controlled regions.</desc>
+                <coords>(11,7)</coords>
+                <type>Neutral</type>
+                <portrait>Sky</portrait>
+            </location>
+            <location name="Moriya Shrine">
+
+                <active_image>moriya_select.png</active_image>
+                <inactive_image>moriya_dim.png</inactive_image>
+                <hidden_image>moriya_sil.png</hidden_image>
+                <image_pos>(635, 150)</image_pos>
+                <prereq>CH3ST1</prereq>
+
+                <desc>A newly arrived shrine to the gods Kanako and Suwako.</desc>
+                <coords>(19,8)</coords>
+                <type>Safe</type>
+                <portrait>Shrine</portrait>
+            </location>
+
+            <location name="Wind God's Lake">
+
+                <active_image>ym_lake_select.png</active_image>
+                <inactive_image>ym_lake_dim.png</inactive_image>
+                <hidden_image>ym_lake_sil.png</hidden_image>
+                <image_pos>(560, 30)</image_pos>
+                <prereq>CH3ST1</prereq>
+
+                <desc>A large lake near the middle of the mountain.</desc>
+                <coords>(18,3)</coords>
+                <type>Neutral</type>
+                <portrait>Sky</portrait>
+            </location>
+
+            <location name="Upper Youkai Mountain">
+
+                <active_image>upper_mt_select.png</active_image>
+                <inactive_image>upper_mt_dim.png</inactive_image>
+                <hidden_image>upper_mt_sil.png</hidden_image>
+                <image_pos>(291, 92)</image_pos>
+                <prereq>CH3ST3</prereq>
+
+                <desc>A restricted area of the mountain controlled by the Tengu.</desc>
+                <coords>(10,4)</coords>
+                <type>Danger</type>
+                <portrait>Sky</portrait>
+            </location>
+            <location name="Summit">
+
+                <active_image>summit_select.png</active_image>
+                <inactive_image>summit_dim.png</inactive_image>
+                <hidden_image>summit_sil.png</hidden_image>
+                <image_pos>(340, 10)</image_pos>
+                <prereq>CH3ST3</prereq>
+
+                <desc>A sacred place at the mountain's top.</desc>
+                <coords>(11,1)</coords>
+                <type>Danger</type>
+                <portrait>Sky</portrait>
+            </location>
+        
+        </locations>
+    </region>
+
+    <region name="Shrine Region" advanced_background="True">
+        <background_image>e_gensokyo_bg.jpg</background_image>
+        <desc>The forested region around this shrine is crawling with monsters</desc>
+        <coords>(18,6)</coords>
+        <entrance>Youkai Path</entrance>
+        <portrait>Shrine</portrait>
+
+        <active_image>h_shrine_select.png</active_image>
+        <inactive_image>h_shrine_dim.png</inactive_image>
+        <hidden_image>h_shrine_sil.png</hidden_image>
+        <image_pos>(600, 130)</image_pos>
+
+        <prereq>CH4ST5</prereq>
+
+        <location_paths>
+            <path>
+                <up>Mayohiga</up>
+                <down>Youkai Path</down>
+            </path>
+            <path>
+                <right>Cherry Blossom Forest</right>
+                <left>Youkai Path</left>
+            </path>
+            <path>
+                <right>Hakurei Shrine</right>
+                <left>Cherry Blossom Forest</left>
+            </path>
+            <path>
+                <up>Gensokyo's Border</up>
+                <down>Hakurei Shrine</down>
+            </path>
+        </location_paths>
+        
+        <locations>
+            <location name="Youkai Path">
+
+                <active_image>path_select.png</active_image>
+                <inactive_image>path_dim.png</inactive_image>
+                <hidden_image>path_sil.png</hidden_image>
+                <image_pos>(10, 260)</image_pos>
+
+                <desc>The youkai infested path usually deters visitors from visiting the shrine.</desc>
+                <coords>(4,9)</coords>
+                <type>Gate</type>
+        		<portrait>Field</portrait>
+            </location>
+            
+            <location name="Cherry Blossom Forest">
+
+                <active_image>blossom_select.png</active_image>
+                <inactive_image>blossom_dim.png</inactive_image>
+                <hidden_image>blossom_sil.png</hidden_image>
+                <image_pos>(290, 250)</image_pos>
+
+                <desc>A beautiful forest of cherry blossoms near the shrine.</desc>
+                <coords>(12,11)</coords>
+                <type>Neutral</type>
+        		<portrait>Garden</portrait>
+            </location>
+            
+            <location name="Hakurei Shrine">
+
+                <active_image>shrine_select.png</active_image>
+                <inactive_image>shrine_dim.png</inactive_image>
+                <hidden_image>shrine_sil.png</hidden_image>
+                <image_pos>(588, 280)</image_pos>
+
+                <desc>A Shinto shrine that sits at the border of Gensokyo.</desc>
+                <coords>(19,12)</coords>
+                <type>Safe</type>
+        		<portrait>Shrine</portrait>
+            </location>
+            
+            <location name="Gensokyo's Border">
+
+                <active_image>border_select.png</active_image>
+                <inactive_image>border_dim.png</inactive_image>
+                <hidden_image>border_sil.png</hidden_image>
+                <image_pos>(570, 40)</image_pos>
+
+
+                <desc>A magic barrier that separates Gensokyo from the outside world.</desc>
+                <coords>(19,4)</coords>
+                <type>Danger</type>
+        		<portrait>Sky</portrait>
+            </location>
+            
+            <location name="Mayohiga">
+
+                <active_image>mayohiga_select.png</active_image>
+                <inactive_image>mayohiga_dim.png</inactive_image>
+                <hidden_image>mayohiga_sil.png</hidden_image>
+                <image_pos>(46, 40)</image_pos>
+
+                <desc>The village of lost travelers shrouded in mystery.</desc>
+                <coords>(3,5)</coords>
+                <type>Neutral</type>
+        		<portrait>Forest</portrait>
+            </location>
+            
+        </locations>
+    
+    </region>
+
+
+
+    <region name="Misty Lake Region" advanced_background="True">
+        <desc>The river of Youkai Mountain flows into a large misty lake.</desc>
+        <coords>(18,11)</coords>
+        <entrance>Foggy River</entrance>
+        <portrait>Field</portrait>
+
+        <background_image>lake_region_bg.jpg</background_image>
+        <active_image>lake_select.png</active_image>
+        <inactive_image>lake_dim.png</inactive_image>
+        <hidden_image>lake_sil.png</hidden_image>
+        <image_pos>(600, 310)</image_pos>
+
+        <prereq>CH4ST5</prereq>
+
+        <location_paths>
+            <path>
+                <right>Misty Lake</right>
+                <left>Foggy River</left>
+            </path>
+            <path>
+                <up>Lakeside Forest</up>
+                <down>Misty Lake</down>
+            </path>
+            <path>
+                <left>Misty Lake</left>
+                <right>Scarlet Devil Mansion</right>
+            </path>
+
+        </location_paths>
+
+        <locations>
+            <location name="Foggy River">
+
+                <active_image>river_sel.png</active_image>
+                <inactive_image>river_dim.png</inactive_image>
+                <hidden_image>river_sil.png</hidden_image>
+                <image_pos>(50, 180)</image_pos>
+
+                <desc>The fresh waters of Youkai Mountain flow into the lake below.</desc>
+                <coords>(3,8)</coords>
+                <type>Gate</type>
+        		<portrait>Field</portrait>
+            </location>
+            <location name="Misty Lake">
+
+
+                <active_image>mistylake_sel.png</active_image>
+                <inactive_image>mistylake_dim.png</inactive_image>
+                <hidden_image>mistylake_sil.png</hidden_image>
+                <image_pos>(300, 329)</image_pos>
+
+
+                <desc>Playful fairies lurk in the mists that cover the lake each day.</desc>
+                <coords>(11,12)</coords>
+                <type>Danger</type>
+        		<portrait>Field</portrait>
+            </location>
+            <location name="Lakeside Forest">
+
+
+                <active_image>lakeforest_sel.png</active_image>
+                <inactive_image>lakeforest_dim.png</inactive_image>
+                <hidden_image>lakeforest_sil.png</hidden_image>
+                <image_pos>(320, 60)</image_pos>
+
+
+                <desc>A dense forest of pine trees at the lake's shore</desc>
+                <coords>(11,5)</coords>
+                <type>Danger</type>
+        		<portrait>Field</portrait>
+            </location>
+            <location name="Scarlet Devil Mansion">
+
+
+                <active_image>mansion_sel.png</active_image>
+                <inactive_image>mansion_dim.png</inactive_image>
+                <hidden_image>mansion_sil.png</hidden_image>
+                <image_pos>(550, 70)</image_pos>
+
+                <desc>The "well protected" entrance to Scarlet Devil Mansion.</desc>
+                <coords>(19,7)</coords>
+                <type>Neutral</type>
+        		<portrait>Field</portrait>
+            </location>
+        </locations>
+    </region>
+
+
+</world_map_data>

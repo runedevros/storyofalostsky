@@ -1,0 +1,28 @@
+<initialization>
+
+    <!--starting units-->
+    
+    <starting_unit name="Youmu">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Ageless Obsession</spell_action>
+        <trait>Attack+ Lv.1</trait>
+    </starting_unit>
+    
+    <starting_unit name="Ran">
+        <spell_action>Fireball</spell_action>
+        <spell_action>Princess Tenko</spell_action>
+        <spell_action>Mystic Wall</spell_action>
+        <spell_action>Mystic Barrier</spell_action>
+        <spell_action>Fried Tofu</spell_action>
+        <trait>Mirage</trait>
+    </starting_unit>
+    
+    <starting_unit name="Chen">
+        <spell_action>Leaf Crystal</spell_action>
+        <spell_action>Pentagram Flight</spell_action>
+        <spell_action>Rice Cake</spell_action>
+        <trait>Mirage</trait>
+    	<trait>Regen Lv.1</trait>
+    </starting_unit>
+    
+</initialization>

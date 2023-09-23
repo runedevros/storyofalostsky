@@ -1,0 +1,40 @@
+<initialization>
+
+    <!--starting units-->
+    <starting_unit name="Marisa">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Master Spark</spell_action>
+    </starting_unit>
+    
+    <starting_unit name="Reimu">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Fireball</spell_action>
+    </starting_unit>
+    
+    <starting_unit name="Sakuya">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Fireball</spell_action>
+    </starting_unit>
+    
+    <starting_unit name="Youmu">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Fireball</spell_action>
+    </starting_unit>
+    
+    <starting_unit name="Ran">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Princess Tenko</spell_action>
+    </starting_unit>
+    
+    <starting_unit name="Chen">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Fireball</spell_action>
+    </starting_unit>
+    
+    <starting_unit name="Alice">
+        <spell_action>Dagger Throw</spell_action>
+        <spell_action>Fireball</spell_action>
+    </starting_unit>
+
+
+</initialization>

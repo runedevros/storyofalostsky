@@ -1,0 +1,52 @@
+30
+25
+gggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggg
+ggggggggghhhhhhhhhgggggggggggg
+ggggggghhffffffffhhgggwwwggggg
+gggggghffffffffffhhgwwwwwwwwgg
+ggghhhffffffhhhhhhggwwwwwwwwgg
+gghfffffffhhhgggggwwwwwwwwwwgg
+ghfffffffhhggwwwwwwwwwwwwwwwwg
+ghfffffffhgwwwwwwwwwwwwwwwwwwg
+ghhhffffhhgwwwwwwwwwwwwwwwwwwg
+ggghhhhhggwwwwwwwwwwwwwwwwwwwg
+gggggghhgwwwwwwwwwwwwwwwwwwwgg
+gggggggggwwwgwwwwwwwwwwwwwwwgg
+rrrrggggggggggggwwwwwwwwwwwggg
+ggggrgggggggggggggwwwwwwwggggg
+gggggrrrrggggggggggggggggggggr
+gggggggggrrggggggrrrggggggggrg
+gggggggggggrggggrrrrrgrrrrrrgg
+ggggggggggggrrggrrrrrggggggggg
+gggggggggggggggggrrrgggggggggg
+gggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggg
+(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(4, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(2, 3)|(2, 3)
+(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(4, 3)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(4, 4)|x|x|x|x|x|x|x|(2, 4)|(2, 3)
+(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(2, 4)
+(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+(3, 4)|(3, 4)|(3, 4)|(3, 4)|(3, 4)|(4, 4)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+(2, 2)|(3, 2)|(3, 2)|(3, 2)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 2)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 3)|(2, 2)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(3, 2)|(3, 2)|(3, 2)
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 3)|(2, 3)|(2, 2)|(3, 2)|(3, 2)|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|(4, 2)|(3, 3)|(3, 3)|(3, 3)
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 3)|(2, 3)|(2, 3)|(3, 3)|(3, 3)|(2, 2)|(3, 2)|x|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(3, 2)|(4, 2)|(4, 3)|(3, 3)|(3, 3)|(3, 3)
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 3)|(2, 3)|(2, 3)|(3, 3)|(3, 3)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(3, 3)|(3, 3)|(3, 3)
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 3)|(2, 3)|(2, 3)|(3, 3)|(3, 3)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(3, 3)|(3, 3)|(3, 3)
+(2, 3)|(3, 3)|(3, 3)|(3, 3)|(2, 3)|(2, 3)|(2, 3)|(3, 3)|(3, 3)|(2, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(3, 3)|(4, 3)|(4, 3)|(3, 3)|(3, 3)|(3, 3)
